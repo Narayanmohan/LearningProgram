@@ -1,0 +1,49 @@
+
+*** These modified files were found in JOE when it aborted on Sat Aug  7 18:45:08 2021
+*** JOE was aborted by UNIX signal 1
+
+*** File 'p101.c'
+#include<stdio.h>
+int main()
+{
+int i;
+char a[100];
+
+i=0;
+while(a[i]!='$')
+{
+
+ scanf("%c",&a[i]);
+ i++;
+ 
+}
+
+i=0;
+while(a[i]!='$')
+{
+
+    printf("%c",a[i]);
+    i++;
+
+}
+
+
+}
+*** File '(Unnamed)'
+p101.
+p101.c
+p101.c
+p101.c
+p101.c
+p101.c
+p101.c
+p101.c
+p101.c
+p101.c
+p101.c
+
+*** File '* Startup Log *'
+Processing '/etc/joe/joerc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/joerc
