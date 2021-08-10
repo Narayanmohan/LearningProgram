@@ -33,9 +33,7 @@ while(cha!='S')
   }
 scanf("%c",&cha);
  }
-
 printf("%c",cha);
-
 
 }
 
