@@ -47,3 +47,34 @@ Processing '/etc/joe/joerc'...
 Processing '/etc/joe/ftyperc'...
 Finished processing /etc/joe/ftyperc
 Finished processing /etc/joe/joerc
+
+*** These modified files were found in JOE when it aborted on Wed Aug 11 03:01:39 2021
+*** JOE was aborted because the terminal closed
+
+*** File 'p83.c'
+/*program No - p83.c
+dt 8-10-2021
+Concept: Loop while with Pattern
+Next Program: Print the following pattern:
+
+-
+
+
+*** File '(Unnamed)'
+p80.c
+p80.c
+p80.c
+p81.c
+p82
+p68.c
+P68.c
+p82.c
+p82.c
+/home/rsa-key-20210804/LearningProgram/.git/COMMIT_EDITMSG
+p83.c
+
+*** File '* Startup Log *'
+Processing '/etc/joe/joerc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/joerc
