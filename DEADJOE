@@ -78,3 +78,31 @@ Processing '/etc/joe/joerc'...
 Processing '/etc/joe/ftyperc'...
 Finished processing /etc/joe/ftyperc
 Finished processing /etc/joe/joerc
+
+*** These modified files were found in JOE when it aborted on Sat Aug 14 20:58:24 2021
+*** JOE was aborted by UNIX signal 1
+
+*** File 'p101.c'
+/*Program No- p101.c
+dt-8-14-2021
+Concept: Array
+Next Program:  
+
+*** File '(Unnamed)'
+/home/rsa-key-20210804/LearningProgram/.git/COMMIT_EDITMSG
+p100.c
+p100.c
+p100.c
+p100.c
+p100.c
+p100.c
+p100.c
+p100.c
+p100.c
+p101.c
+
+*** File '* Startup Log *'
+Processing '/etc/joe/joerc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/joerc
