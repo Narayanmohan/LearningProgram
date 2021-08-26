@@ -5,8 +5,8 @@ Program Name:Find the sum of 2 Matrixes */
 
 int i,j,a[3][3],b[3][3],c[3][3];
 
-i=0;
 
+i=0;
 while(i<3)
 {
     j=0;
@@ -81,6 +81,5 @@ while(i<3)
 i++;
 
 }
-
 
 }
