@@ -1,7 +1,19 @@
 /*Program No- P95.c
 dt - 7/15/2021
 Concept- Matrix
-Program Name-Find the column sum of the Matrix*/
+Program Name-Find the column sum of the Matrix
+-----------------------------------------------------------------------------------
+Example:
+
+[1	4	5]
+[2	7	3]
+[8     -3	1]
+
+
+sum = 4+7+-3 = 8
+
+
+------------------------------------------------------------------------------------*/  
 
 #include<stdio.h>
 int main()
