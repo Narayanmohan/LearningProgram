@@ -14,12 +14,15 @@ char a[100];
 
 i=0;
 
+scanf("%c",&a[i]);
+
 while(a[i]!='.')
 {
     
+    i++;
     scanf("%c",&a[i]);
  
-    i++;
+    
 
 }
  
