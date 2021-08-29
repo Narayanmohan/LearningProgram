@@ -10,25 +10,28 @@ int main()
 {
 
     int i;
+    
     char a[100];
-    
-    
+        
     i=0;
+    
+    scanf("%c",&a[i]);
+    
     while(a[i]!='\n')
     {
+  	i++;
+    
         scanf("%c",&a[i]);
-        i++;
-        
-    
-    
+       
     }
 
     i=0;
+    
     while(a[i]!='\n')
     {
     
      printf("%c",a[i]);
-     
+    
      i++;
     
     }
