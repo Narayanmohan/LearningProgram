@@ -26,7 +26,7 @@ int main()
     }
 
 
-i=0;
+
 scanf("%d",&num);
 ctr=0;
 i=0;
@@ -49,7 +49,7 @@ while(i<3)
     
     }
     
-   printf("%d The Number of times  the give number exist = ctr",ctr); 
+   printf("The Number of times  the give number exist = %d",ctr); 
 
 }     
 
