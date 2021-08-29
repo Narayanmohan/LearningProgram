@@ -14,13 +14,16 @@ int main()
  
  i=0;
 
+ scanf("%c",&a[i]);
+ 
  while(a[i]!='')
  {
  
+     i++;
+
      scanf("%c",&a[i]);
-     i++; 
- 
- 
+      
+
  }
 
 i=0;
@@ -29,11 +32,10 @@ while(a[i]!='')
 {
 
     printf("%d",a[i]);
+
     i++;
 
 }
-
-
 
 }
 
