@@ -67,5 +67,26 @@ while(i<ctr)
 
 }
 
+k=ctr;
+j=0;
+while(b[j]!='$')
+{
+
+ c[k] = b[j];
+ j++;
+ k++;
+
+
+}
+
+k=0;
+while(c[k]!='$')
+{
+
+ printf("%c",c[k]);
+ k++;
+
+}
+
 
 }
