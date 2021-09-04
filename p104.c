@@ -7,38 +7,42 @@ Next Program: Read 10 numbers and count no of times the given number is exist
 int main()
 {
 
-int i,a[10], ctr, j;
+int i,a[10], ctr, j,num;
 
 i=0;
+
 while(i<=9)
 {
 
     scanf("%d",&a[i]);
+
     i++;
 
 
 }
 
-scanf("%d",&j);
+scanf("%d",&num);
 
 ctr=0;
 
-i=0;
+j=0;
 
 while(j<=9)
 {
     
-    if(j==a[i])
+    if(num==a[j])
     {
     
-        ctr = ctr +1;
-        i++;
+        ctr = ctr + 1;
+        
+        j++;   
+        
     }
 
    else
    {
-   
-       i++;
+  
+       j++;
        
    
    }

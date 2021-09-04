@@ -22,7 +22,6 @@ int i,num;
 char a[100];
 char b[100];
 
-
 i=0;
 
 scanf("%c",&a[i]);
@@ -35,37 +34,40 @@ while(a[i]!='$')
 
 }
 
-a[i]!='\0';
+
+
+a[i]='\0';
 
 i=0;
 
 scanf("%d",&num);
 
-while(a[i]!='\0')
+while(i<num)
 {
-    if(i<num)
-    {
+
+       
     
     b[i] = a[i];
-
-    i++;
-    
-    }
+        
+   
+   i++;
 
 
 }
 
-b[i]!='\0';
+b[i]='\0';
 
 i=0;
 
 while(b[i]!='\0')
 {
- 
-printf("%c",b[i]);
-i++;
+
+    printf("%c",b[i]);
+
+    i++;
 
 }
+
 
 }
  

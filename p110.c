@@ -28,9 +28,12 @@ scanf("%c",&a[i]);
 
 }
 
+
+a[i]='\0';
+
 i=0;
 
-while(a[i]!='$')
+while(a[i]!='\0')
 {
 
  if(a[i] == '\n')
@@ -40,7 +43,7 @@ while(a[i]!='$')
  
  }
 
-else if(a[i]== '')
+else if(a[i]== ' ')
 {
  word = word +1;
 
@@ -53,6 +56,6 @@ else
 
 i++;
 }
-printf("%d%d%d",lines,word,cha);
+printf(" \n%d \n%d \n%d  \n ",lines,word,cha);
 
 }

@@ -23,26 +23,30 @@ while(a[i]!='$')
 
 }
 
+a[i]='\0'; 
+
 i=0;
 
-while(a[i]!='$')
+while(a[i]!='\0')
 {
     if(a[i]>=65 && a[i]<=90)
     {
     
-        printf("%c is upper",a[i]);
+        printf("%c is upper\n",a[i]);
+        
+        
         
     }
 
     else if(a[i]>=97 && a[i]<=122)
     {
     
-        printf("%c is lower",a[i]);
+        printf("%c is lower\n",a[i]);
     }
 
     else if(a[i]>=48 && a[i]<=57)
     {
-        printf("%c is digit",a[i]);
+        printf("%c is digit\n ",a[i]);
     
     }
     else

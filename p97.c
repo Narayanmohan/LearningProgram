@@ -28,8 +28,12 @@ int main()
 
 
 scanf("%d",&num);
+
 ctr=0;
+
+
 i=0;
+
 while(i<3)
 {
 
@@ -42,16 +46,21 @@ while(i<3)
         {
         
          ctr = ctr+1;
+     
          j++;
-        
-        }
-        i++;
     
-    }
+       }
+       else
+       {
+           
+           j++;
+       
+       }
+
+    }     
+ i++;
     
-   printf("The Number of times  the give number exist = %d",ctr); 
-
-}     
-
+}
+printf("The number of times the given number exist is = %d",ctr);
 
 }

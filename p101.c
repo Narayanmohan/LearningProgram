@@ -21,30 +21,33 @@ fbig =a[0];
 i=0;
 while(i<=9)
 {
- if(fbig <a[i])
- {
+  if(fbig <a[i])
+  {
  
+  fbig=a[i];
   fbp =i;
   i++;
- }
+  }
 
-else
-{
+  else
+  {
+  
+  i++;
 
-i++;
+  }
 
 }
+printf("Firstbig = %d",fbig);
 
-}
 
 fsmall =a[0];
 
 i=0;
 while(i<=9)
 {
- if(fsmall = a[i])
+ if(fsmall>a[i])
  {
- 
+  fsmall = a[i];
   fsp=i;
   i++;
   
@@ -55,6 +58,7 @@ while(i<=9)
  }
 
 }
+printf("First Small = %d", fsmall);
 
 sbig = fsmall;
 i=0;
@@ -77,6 +81,6 @@ while(i<=9)
  
 }
 
-printf("%d",sbig);
+printf("Second big= %d",sbig);
 
 }

@@ -7,13 +7,13 @@ Next Program: Read text until '$' is given and Reverse the Text
 int main()
 {
 
-int i ,j,ctr;
+int i ,j,length;
 
 char a[100];
 
 char b[100];
 
-ctr =0;
+length =0;
 
 
 i=0;
@@ -30,20 +30,23 @@ while(a[i]!='$')
 
 }
 
-a[i]!='\0';
+a[i]='\0';
 
 i=0;
-ctr=1;
 
 while(a[i]!='\0')
 {
 
-    ctr = ctr + i;
+    length = length + 1;
+
     i=i+1;
 
 }
 
-i=ctr;
+printf("length = %d",length);
+
+i = length-1;
+
 j=0;
 
 while(i>=0)
@@ -55,19 +58,19 @@ while(i>=0)
 
 }
 
-b[j]!='\0';
+b[j]='\0';
 
 j=0;
 
 while(b[j]!='\0')
 {
 
-    printf("%c",b[j]);
+    printf("%c", b[j]);
+
     j++;
 
 
 }
-
 
 
 }

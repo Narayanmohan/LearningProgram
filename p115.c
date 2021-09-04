@@ -17,7 +17,7 @@ B=> Love In
 int main()
 {
 
-int i, j,mpos,nthcha,ctr;
+int i, j,mpos,nthcha,limit;
 
 char a[100];
 char b[100];
@@ -38,32 +38,34 @@ scanf("%c",&a[i]);
 
 
 
-a[i]!='\0';
+a[i]='\0';
 
 i=0;
 
+
 j=0;
-
-ctr=1;
-
 
 scanf("%d",&mpos);
 
-scanf("%d" &nthcha);
+scanf("%d", &nthcha);
 
 i= mpos;
 
-while(ctr<=nthcha)
+limit = nthcha+mpos;
+
+while(i<limit)
 {
+
 b[j] = a[i];
+
 i= i+1;
-ctr = ctr+1;
-j+j+1;
+
+j++;
 
 }
 
 
-b[j]!='\0';
+b[j]='\0';
 
 j=0;
 
@@ -71,6 +73,7 @@ while(b[j]!='\0')
 {
 
     printf("%c", b[j]);
+
     j++;
 
 }

@@ -16,7 +16,7 @@ int main()
 
  scanf("%c",&a[i]);
  
- while(a[i]!='')
+ while(a[i]!=' ')
  {
  
      i++;
@@ -26,16 +26,20 @@ int main()
 
  }
 
+// \0= > means Marking that is the end of the array
+a[i]='\0';
+
 i=0;
 
-while(a[i]!='')
+while(a[i]!='\0')
 {
 
-    printf("%d",a[i]);
+    printf("%c",a[i]);
 
     i++;
 
 }
+
 
 }
 

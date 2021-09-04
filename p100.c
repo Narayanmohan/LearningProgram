@@ -31,15 +31,15 @@ small=a[0];
 
 i=0;
 
-while(i<=9)
+while(i<9)
 {
     scanf("%d",&a[i]);
     i++;
 }
 
-small=0;
+small=a[0];
 i=0;
-while(i<=9)
+while(i<9)
 {
     if(small>a[i])
     {
@@ -59,7 +59,7 @@ i=0;
 
 big = a[0];
 
-while(i<=9)
+while(i<9)
 {
   if(big<a[i])
   {
@@ -74,17 +74,18 @@ while(i<=9)
       i++;
   }
 
+}
+
   swap = a[pb];
   a[pb] = a[ps];
   a[ps] = swap;
 
-}
 
 i=0;
 
-while(i<=9)
+while(i<9)
 {
-    printf("%d",a[i]);
+    printf("%d, ",a[i]);
     i++;
 
 }

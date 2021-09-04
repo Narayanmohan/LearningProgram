@@ -27,9 +27,10 @@ while(a[i]!='.')
 }
  
 
-i=0;
+a[i]='\0';
 
-while(a[i]!='.')
+i=0;
+while(a[i]!='\0')
 {
  
     printf("%c",a[i]);

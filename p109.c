@@ -31,9 +31,11 @@ int main()
  
  }
 
+a[i]='\0';
+
 i=0;
 
-while(a[i]!='$')
+while(a[i]!='\0')
 {
 
  if(a[i]>=65 && a[i]<=90)
@@ -67,5 +69,5 @@ i++;
 }
 
 
-printf("%d%d%d%d",uc,lc,sc,sd);
+printf("\n%d\n%d\n%d\n%d\n",uc,lc,sc,sd);
 }
