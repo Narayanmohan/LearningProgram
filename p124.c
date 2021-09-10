@@ -9,8 +9,10 @@ int main()
 
 int i,j,po;
 
+
 char a[100];
-char b[100];
+int b[100];
+po=0;
 
 i=0;
 
@@ -31,8 +33,9 @@ i=0;
 
 j=0;
 
-b[j]=i;
+b[j]= i;
 
+j++; 
 
 while(a[i]!='\0')
 {
@@ -40,25 +43,30 @@ while(a[i]!='\0')
          if(a[i]=='\n')
          {
  
-          i++;
-          po=i;
+          
+          po=i+1;
+         
           b[j]= po;
+         
           j++;
  
          }
-        else
-         { 
-         i++;
-         }
+       
+        i++;
+        
 
 }
 
+
 b[j] = -1;
+
+j=0;
 
 while(b[j]!=-1)
 {
 
-  printf("%d",b[j]);
+  printf("%d,  ",b[j]);
+
   j++;
     
 }

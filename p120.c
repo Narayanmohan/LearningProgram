@@ -14,12 +14,16 @@ c=> abcdefgh
 int main()
 {
 
-int i,j,k,ctr;
+int i,j,k,length;
 char a[100];
 char b[100];
 char c[100];
 
+
+length = 0;
+
 i=0;
+
 
 scanf("%c",&a[i]);
 
@@ -32,8 +36,15 @@ scanf("%c",&a[i]);
 
 }
 
+
+a[i]='\0';
+
+
+
 j=0;
+
 scanf("%c",&b[j]);
+
 
 while(b[j]!='$')
 {
@@ -44,22 +55,28 @@ scanf("%c",&b[j]);
 
 
 }
-ctr=0;
+
+
+b[j]='\0';
+
 i=0;
 
-while(a[i]!='$')
+while(a[i]!='\0')
 {
 
-ctr = ctr +1;
-i++;
+length = length +1;
 
+i++;
 
 }
 
+//printf("Length is = %d",length);
+
 k=0;
+
 i=0;
 
-while(i<ctr)
+while(i < length)
 {
     c[k] = a[i];
     i++;
@@ -67,9 +84,11 @@ while(i<ctr)
 
 }
 
-k=ctr;
+
+
 j=0;
-while(b[j]!='$')
+
+while(b[j]!='\0')
 {
 
  c[k] = b[j];
@@ -78,12 +97,15 @@ while(b[j]!='$')
 
 
 }
+c[k]='\0';
 
 k=0;
-while(c[k]!='$')
+
+while(c[k]!='\0')
 {
 
  printf("%c",c[k]);
+ 
  k++;
 
 }

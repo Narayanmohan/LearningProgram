@@ -23,9 +23,11 @@ int main()
 int i ,j,n,po;
 
 char a[100];
-char b[100];
+int  b[100];
 
+po=0;
 
+n=0;
 
 i=0;
 
@@ -44,13 +46,14 @@ scanf("%c",&a[i]);
 a[i] = '\0';
 
 i=0;
+
 j=0;
 
 b[j]=i;
 
 j++;
 
-while(a[i]!='\0');
+while(a[i]!='\0')
 {
 
 
@@ -62,16 +65,16 @@ while(a[i]!='\0');
      b[j]=po;
 
      j++;
+  
      }
 
-   else
-     {
        i++;
-     }
+    
  
 }
 
 b[j]= -1;
+
 
 scanf("%d",&n);
 
@@ -79,7 +82,7 @@ i=0;
 
 i= b[n-1];
 
-while(a[i]!='\n')
+while(a[i]!='\n' && i!=-1)
 {
     
     printf("%c",a[i]);

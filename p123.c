@@ -8,6 +8,7 @@ int main()
 {
 
 int i,j,lines;
+
 char a[100];
 
 
@@ -27,6 +28,8 @@ a[i]='\0';
 
 lines=0;
 
+i=0;
+
 while(a[i]!='\0')
 {
 
@@ -34,15 +37,16 @@ while(a[i]!='\0')
     {
 
     lines= lines+1;
-    i++;
-
+ 
     }
-
+    
+     i++;
+  
 
 }
 
-a[i]!='\0';
-printf("%c",lines);
+
+printf("%d",lines);
 
 
 }
