@@ -31,7 +31,8 @@ while(a[i]!='$')
 
 }
 
-a[i]!='\0';
+a[i]='\0';
+
 j=0;
 
 scanf("%c",&b[j]);
@@ -39,14 +40,13 @@ scanf("%c",&b[j]);
 while(b[j]!='$')
 {
 
-i++;
+j++;
 
 scanf("%c",&b[j]);
 
-
 }
 
-b[j]!='\0';
+b[j]='\0';
 
 i=0;
 
@@ -55,14 +55,16 @@ count=0;
 while(a[i]!='\0')
 {
 
-k=i;
 
-j=0;
+  k=i;
+
+  j=0;
 
 
 while(a[k]==b[j] && b[j]!='\0')
 {
     k++;
+
     j++;
 
 
@@ -78,7 +80,6 @@ if(b[j]=='\0')
 i++;
 }
 
-printf("The number of times the pattern exist =%d",count);
-
+printf("The number of times the pattern exist = %d ",count);
 
 }
