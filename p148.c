@@ -29,7 +29,4 @@ avg= (sum/i);
 printf("%f",avg);
 
 
-
-
-
 }
