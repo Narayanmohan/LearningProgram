@@ -8,7 +8,6 @@ Next program->Read 3x3 Matrix and search the given number exists in the Matrix
 int main()
 {
 
-
 int i,j,a[3][3],num,flag;
 
 for(i=0;i<3;i++)
@@ -22,7 +21,6 @@ for(i=0;i<3;i++)
 }
 
 
-
 scanf("%d",&num);
 
 flag =0;
@@ -33,7 +31,7 @@ for(i=0;i<3;i++)
     for(j=0;j<3;j++)
     {
     
-        if(num==a[i][j]);
+        if(num==a[i][j])
         {
             
             flag =1;
@@ -46,13 +44,13 @@ for(i=0;i<3;i++)
 
 if(flag==1)
 {
-    printf("number exits = %d",num);
+    printf("The Given number is exist= %d",num);
     
 }
 
 else
 {
-    printf(" number does not exist = %d",num);
+    printf(" The Given number does not exist %d",num);
 
 }
 
