@@ -43,7 +43,7 @@ float avg;
  
  }
 
-avg = (sum /(i+j));
+avg = (sum /(i*j));
 
 printf("%f",avg);
 
