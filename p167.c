@@ -13,8 +13,9 @@ char a[100];
     
 for(i=0,scanf("%c",&a[i]); a[i]!=' '; i++,scanf("%c",&a[i]));
 
+a[i]='\0';
 
-for(i=0;a[i]!=' ';i++)
+for(i=0;a[i];i++)
 {
 
     printf("%c",a[i]);
