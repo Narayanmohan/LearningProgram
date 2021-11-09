@@ -3,6 +3,15 @@ dt-11-9-2021
 Concept-Char Array
 Loop-For Loop
 Next Program-Read text until '$' is given and copy 'N' th characters from the 'm'th Position
+---------------------------------------------------------------------------------------------------------
+Example:
+
+Input -> I LOVE INDIA
+n -> 7
+m -> 3
+
+output -> LOVE IN
+
 ----------------------------------------------------------------------------------------------------------*/
 #include<stdio.h>
 int main()
@@ -24,7 +33,7 @@ scanf("%d",&nthcha);
 
 limit = nthcha + mpos;
 
-for(i=mpos,j=0;i<limit;i++,j++)
+for(i=mpos,j=0;i<=limit;i++,j++)
 {
     
     b[j]=a[i];    
