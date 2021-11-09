@@ -33,7 +33,7 @@ b[i]='\0';
 
 for(i=0;b[i];i++)
 {
-putchar(b[i]);
+    putchar(b[i]);
 
 }
 
