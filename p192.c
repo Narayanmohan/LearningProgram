@@ -21,7 +21,7 @@ int main()
     
                 b[j]='\0';
                 
-                for(i=0,j=0;a[i];l++,i++)
+                for(i=0,j=0;a[i];)
                 {
             
                     for(k=i,j=0;a[k]==b[j] && b[j]!='\0';k++,j++);
@@ -35,7 +35,8 @@ int main()
                         else
                         {
                             c[l]=a[i];
-                        
+                            l++;
+                            i++;
                         }
                     
                              
