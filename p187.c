@@ -26,16 +26,16 @@ po=0;
 for(i=0;(a[i]=getchar())!='$';i++);
 
 a[i]='\0';
-b[j]=i;
 
-for(i=0,j=0;a[i];i++)
+
+for(i=0,j=0,b[j++]=i;a[i];i++)
 {
 
     if(a[i]=='\n')
     {
         po=i+1;
-        b[j]=po;
-        j++;
+        b[j++]=po;
+        
     }
 
 
