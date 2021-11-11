@@ -25,6 +25,26 @@ mthline ->  1
 
 nthline ->  2
 
+---------------------------------------------------------------------------------------------------
+
+Input -> ANAND
+         MOHAN
+         MEERA
+         ARVINDER
+         CHENNAI
+         LOS ANGELES
+         $
+    
+Input -> 1
+
+Input -> 4
+
+
+Output = ANAND
+         MOHAN
+         MEERA
+         CHENNAI 
+
 ---------------------------------------------------------------------------------------------------*/
 #include<stdio.h>
 int main()
@@ -40,7 +60,7 @@ for(i=0;(a[i]=getchar())!='$';i++);
 
 a[i]='\0';
 
-for(i=0,j=0,b[j]=i,j++;a[i];i++)
+for(i=0,j=0,b[j++]=i,j++;a[i];i++)
 {
 
 
@@ -48,9 +68,8 @@ for(i=0,j=0,b[j]=i,j++;a[i];i++)
     {
     
         po=i+1;
-        b[j]=po;
-        j++;
-    
+        b[j++]=po;
+        
     }
 
 
@@ -61,7 +80,7 @@ b[j]=-1;
 scanf("%d",&m);
 scanf("%d",&n);
 
-limit = b[n];
+limit = b[m+n];
 
 for(i=b[m-1];i<limit && a[i];i++)
 {
