@@ -33,7 +33,7 @@ scanf("%d",&nthcha);
 
 limit = nthcha + mpos;
 
-for(i=mpos,j=0;i<=limit;i++,j++)
+for(i=mpos,j=0;i<limit;i++,j++)
 {
     
     b[j]=a[i];    
