@@ -98,7 +98,10 @@ int main()
     
     
     printf("Name:%s\n",bio.name);
+
     printf("Age:%d\n",bio.age);
+
+
     printf("Salary:%f\n",bio.salary);
     
     
