@@ -43,6 +43,7 @@ struct date
 };
 typedef struct date Dob;
 
+
 Dob d;
 
 
