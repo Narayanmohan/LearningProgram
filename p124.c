@@ -9,7 +9,6 @@ int main()
 
 int i,j,po;
 
-
 char a[100];
 int b[100];
 po=0;
