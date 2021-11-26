@@ -11,7 +11,6 @@ int i,j,lines;
 
 char a[100];
 
-
 i=0;
 
 scanf("%c",&a[i]);
