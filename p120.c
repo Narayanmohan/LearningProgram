@@ -19,7 +19,6 @@ char a[100];
 char b[100];
 char c[100];
 
-
 length = 0;
 
 i=0;
