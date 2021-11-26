@@ -1,4 +1,4 @@
-/*program No- P67.c
+/*program No- p67.c
 dt 8-8-2021
 Next Program: Read and Display the numbers other than 1000 and Find sum of positive, negative numbers 
 -----------------------------------------------------------------------------------------------------
@@ -49,7 +49,6 @@ while(a!=1000)
       printf("%d",a);
       
       scanf("%d",&a);
-
 
 
 }
