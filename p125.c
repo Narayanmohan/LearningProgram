@@ -19,7 +19,6 @@ b= > [0][5][9]
 int main()
 {
 
-
 int i ,j,n,po;
 
 char a[100];
@@ -41,6 +40,7 @@ while(a[i]!='$')
 scanf("%c",&a[i]);
 
 }
+
 
 
 a[i] = '\0';
