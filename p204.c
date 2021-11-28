@@ -26,7 +26,9 @@ Bio b;      /*-----Varialble---- */
 scanf("%s%d%f",b.name,&b.age,&b.salary);
 
 printf("Name:%s\n",b.name);
+
 printf("Age:%d\n",b.age);
+
 printf("Salary:%f\n",b.salary);
 
 
