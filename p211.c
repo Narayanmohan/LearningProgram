@@ -17,6 +17,7 @@ int main()
  
  POINT pnt;
  
+
  
  scanf("%d%d",&pnt.x,&pnt.y);
  
