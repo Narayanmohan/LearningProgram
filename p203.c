@@ -11,13 +11,14 @@ int main()
        struct biodata
        {
            
-           char a[100];
+           char name[100];
            int age;
            float salary;
        
        
        }b[3];
 
+int i;
 
 for(i=0;i<3;i++)
 {
@@ -29,7 +30,7 @@ for(i=0;i<3;i++)
 for(i=0;i<3;i++)
 {
 
-    printf("Name%s\n,Age:%s\n,Salary%s\n",b[i].name,b[i].age,b[i].salary);
+    printf("Name:%s\n  Age:%d\n  Salary%f\n",b[i].name,b[i].age,b[i].salary);
 
 
 }
