@@ -24,7 +24,7 @@ int main()
   
  }Dob;
 
-typdef struct biodata
+typedef struct biodata
  {
      char name[100];
      int age;
@@ -40,12 +40,12 @@ scanf("%s%s%d%d%d%d%s%d%f",b.a.street,b.a.city,&b.a.pincode,&b.d.day,&b.d.mm,&b.
 
 printf("Street:%s\n",b.a.street);
 printf("City:%s\n",b.a.city);
-printf("Pincode:%s\n",b.a.pincode);
+printf("Pincode:%d\n",b.a.pincode);
 printf("Day:%d\n",b.d.day);
 printf("Month%d\n",b.d.mm);
 printf("Year:%d\n",b.d.year);
 printf("Name:%s\n",b.name);
 printf("Age:%d\n",b.age);
-printf("Salary:%d\n",b.salary);
+printf("Salary:%f\n",b.salary);
 
 }
