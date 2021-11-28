@@ -29,7 +29,7 @@ int main()
     distance = sqrt((p2.x-p1.x)*(p2.x-p1.x)+(p2.y-p1.y)*(p2.y-p1.y));
     
     
-    printf("Distance between (%f%f) and (%f%f) is %f\n",p2.x,p1.x,p2.y,p2.y,distance);
+    printf("Distance between (%f%f) and (%f%f) is %f\n",p2.x,p1.x,p2.y,p1.y,distance);
 
 
 
