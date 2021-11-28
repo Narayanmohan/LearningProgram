@@ -22,6 +22,7 @@ scanf("%d%d%d%d",&comp1.a,&comp1.b,&comp2.a,&comp2.b);
 
 printf("\n%d+i%d",comp1.a,comp1.b);
 
+
 printf("\n%d+i%d",comp2.a,comp2.b);
 
 
