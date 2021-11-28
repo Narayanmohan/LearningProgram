@@ -49,7 +49,6 @@ Dob d;
 
 scanf("%s%d%f%s%s%d%d%d%d",b.name,&b.age,&b.salary,a.street,a.city,&a.pincode,&d.day,&d.mm,&d.year);
 
-
 printf("Name:%s\n",b.name);
 printf("Age:%d\n",b.age);
 printf("Salary:%f\n",b.salary);
