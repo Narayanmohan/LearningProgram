@@ -19,6 +19,7 @@ Complexx comp;
 
 scanf("%d%d",&comp.a,&comp.b);
 
+
 printf("%d+i%d",comp.a,comp.b);
 
 
