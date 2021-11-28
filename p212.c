@@ -3,28 +3,33 @@ dt-11-26-2021
 Concept-Typedef with Structure
 Next Program-Find the distance between two points
 -----------------------------------------------------------------------------*/
-#include<stdio.h>
-#include<math.h>
+#include <stdio.h>
+
+#include <math.h>
+
 int main()
 {
 
-    typedef struct distance
+    typedef struct point
     {
        
-        float x1,y1,x2,y2,distance;
+        float x,y;
     
-    }DISTANCE
+    }POINT;
         
-    DISTANCE dt;
+    POINT p1,p2;
         
-            scanf("%f%f",&dt.x1,&dt.y1);
+    float distance;    
+        
+        
+            scanf("%f%f",&p1.x,&p1.y);
 
-            scanf("%f%f",&dt.x2,&dt.y2);
+            scanf("%f%f",&p2.x,&p2.y);
             
-    dt.distance = sqrt((dt.x2-dt.x1)*(dt.x2-dt.x1)+(dt.y2-dt.y1)*(dt.y2-dt.y1));
+    distance = sqrt((p2.x-p1.x)*(p2.x-p1.x)+(p2.y-p1.y)*(p2.y-p1.y));
     
     
-    printf("Distance between (%f%f) and (%f%f) is %f\n",dt.x1,dt.y1,dt.x2,dt.y2,dt.distance);
+    printf("Distance between (%f%f) and (%f%f) is %f\n",p2.x,p1.x,p2.y,p2.y,distance);
 
 
 
