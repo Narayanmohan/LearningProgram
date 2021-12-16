@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
     }
 
     
-    ch = getchar();
+//    ch = getchar();
     while(ch!='$')
     {
     
