@@ -27,7 +27,7 @@ FILE *fp;
 
     }
 
-fp =fopen("Bio5.txt","r");
+fp =fopen(argv[1],"r");
 
     if(fp== NULL)
      {
@@ -46,7 +46,6 @@ while(feof(fp)==0)
 }
 
 fclose(fp);
-
 
 
 }
