@@ -13,7 +13,10 @@ so, when give ./a.out -> itself defines the program Number , we do not have to g
 
 ./a.out p224.c [ ./a.out is enough and it means filename itself] ->
 
+so it considered the way I described below
 
+1-./a.out -> argv[0]
+2- Mohan.txt -> argv[1]
 ------------------------------------------------------------------------------------------------*/
 #include<stdio.h>
 int main(int argc, char *argv[])
