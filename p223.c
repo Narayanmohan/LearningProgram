@@ -42,7 +42,6 @@ while(feof(fp)==0)
  
  printf("\n%s\n%d\n%f",b.name,b.age,b.salary);
 
-
 }
 
 fclose(fp);
