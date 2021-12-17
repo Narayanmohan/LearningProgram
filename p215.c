@@ -2,6 +2,13 @@
 dt-12-14-2021
 Concept-File Handling
 Next Program-Read bio-data from keyboard and write it to a file until n.name[0]!='$'
+---------------------------------------------------------------------------------------------
+Note:
+
+  1-String is nothing but the array of characters 
+  2-Here we are checking the first character in the array is zero and if it is zero program
+  never executes or never go inside the while Loop.
+
 ---------------------------------------------------------------------------------------------*/
 #include<stdio.h>
 int main()
@@ -39,7 +46,7 @@ fp=fopen("Bio1.txt","w");
   
       scanf("%d%f",&b.age,&b.salary);
       
-      fprintf(fp,"\n%s \n%d \n%f",b.name,b.age,b.salary);
+      fprintf(fp,"%s\n%d\n%f\n",b.name,b.age,b.salary);
       
       scanf("%s",b.name);
       
