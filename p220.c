@@ -20,7 +20,6 @@ When Execute follow the below steps:
  -  cc p220.c
  - ./a.out Bio2.txt
  - joe Bio2.txt
-
 ---------------------------------------------------------------------------------------------------*/
 #include<stdio.h>
 int main(int argc , char *argv[])
