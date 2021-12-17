@@ -2,6 +2,18 @@
 dt-12-15-2021
 Concept-CommandLineArgument
 Next Program-Read a character from keyboard and write it to a file using command line Argument
+
+
+Note-1
+
+argv[0]- Program No p224.c
+argv[1]- Mohan.txt(File Name]
+
+so, when give ./a.out -> itself defines the program Number , we do not have to give likethat
+
+./a.out p224.c [ ./a.out is enough and it means filename itself] ->
+
+
 ------------------------------------------------------------------------------------------------*/
 #include<stdio.h>
 int main(int argc, char *argv[])
@@ -27,7 +39,7 @@ int main(int argc, char *argv[])
     }
 
     
-//    ch = getchar();
+    ch = getchar();
     while(ch!='$')
     {
     
