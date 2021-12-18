@@ -3,6 +3,15 @@ dt-12-16-2021
 Concept-CommandLineArgument
 Concept-FileHandling
 NextProgram-Convert Uppercase to Lowercase using CommandLindArgument and Display on the Screen
+--------------------------------------------------------------------------------------------------------
+Note:
+
+  While running the program consider the below points
+   
+    - Take the Readch.txt program and update the text Using Capital Letters.
+    - cc p228.c
+    -./a.out Readch.txt saraswathi.txt
+
 --------------------------------------------------------------------------------------------------------*/
 #include<stdio.h>
 int main(int argc, char *argv[])
@@ -37,8 +46,8 @@ while(ch!=EOF)
     if(ch>=65 && ch<=90)
     {
         ch = ch+32;
-        
-    
+
+
     }
 
  putc(ch,fp2);
@@ -59,3 +68,4 @@ fclose(fp1);
 fclose(fp2);
 
 }
+
