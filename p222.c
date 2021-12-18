@@ -2,6 +2,17 @@
 dt-12-15-2021
 Concept-CommandlineArgument-FileHandling
 Next Program- Read biodata from keyboard and write it to a file until b.name[0]!='$' using command line Argument
+-----------------------------------------------------------------------------------------------------------------------------
+cc p222.c
+
+./a.out Monu.txt
+
+Mohan
+47
+177000
+
+Here Monu.txt is new file name we have give while running the script
+
 ---------------------------------------------------------------------------------------------------------------------------*/
 #include<stdio.h>
 int main( int argc, char *argv[])
