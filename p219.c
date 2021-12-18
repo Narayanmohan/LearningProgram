@@ -22,6 +22,15 @@ while(ch!=EOF)
 }
 
 File pointer *fp moves to next character automatically by using getc(fp)
+---------------------------------------------------------------------------------------------
+Note-
+
+"r" -> if it is only Readonly mode then ./a.out is enough to see the output
+
+just type ./a.out
+
+Meaning: We are accessing the Existing File.
+
 --------------------------------------------------------------------------------------------*/
 #include<stdio.h>
 int main()
