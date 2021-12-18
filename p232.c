@@ -3,15 +3,13 @@ dt-12-16-2021
 Concept-CommandLineArgument
 Concept-File Handling
 Concept-Using CharArray
+Next Program- Read characters from  File Until EOF and Displya on the screen using char array.
 ------------------------------------------------------------------------------------------------------
 Note:
 
  putchar function can be used for to display on the screen.
 
-
-
 ------------------------------------------------------------------------------------------------------*/
-
 #include<stdio.h>
 int main(int argc,char *argv[])
 {
@@ -42,7 +40,7 @@ if(fp2==NULL)
 
 
 
-for(i=0;(a[i]=getc(fp2)!=EOF);i++);
+for(i=0;(a[i]=getc(fp2))!=EOF;i++);
 
 a[i]='\0';
 
