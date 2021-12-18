@@ -2,6 +2,15 @@
 dt-12-16-2021
 Concept-FileHandlingwithCommandLineArgument
 NextProgram-Read character from file until EOF and display on screen.
+------------------------------------------------------------------------------------
+Note:
+
+cat <FileName>
+
+cat p225.c
+
+It will display the programs output in the screen.
+
 ------------------------------------------------------------------------------------*/
 #include<stdio.h>
 int main(int argc, char *argv[])
