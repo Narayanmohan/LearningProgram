@@ -2,7 +2,11 @@
 dt-12-15-2021
 Concept-File Handling
 Next Program-Read char from keyboard and write it to the file until '$' is given
--------------------------------------------------------------------------------------*/
+------------------------------------------------------------------------------------------
+"W"-> if it is a Write mode then we have to give a new filename while running the program,
+
+
+-----------------------------------------------------------------------------------------*/
 #include<stdio.h>
 int main()
 {
