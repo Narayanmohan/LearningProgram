@@ -1,4 +1,3 @@
-
 /*program No-p236.c
 dt-12-23-2021
 Concept-File Handling
@@ -13,6 +12,11 @@ arvindar.txt file has the following text as described below:
 Apple$
 bAll#
 car123
+
+In the Array it should be exist like this:
+
+ 0  1  2  3  4   5  6  7  8  9 10  11 12   13  14  15  16  17  18
+[A][p][p][l][e][\n][c][a][r][1][2][3][\n] [b] [A] [l]  [l] [#] [\n]
 
 
 OUTPUT:
