@@ -101,7 +101,7 @@ lineno=0;
 
                 } 
                
-                printf("lineno:=%d Uppercasecount:=%d lowercasecount%d SingleDigitcount:=%d specialcharactercount:=%d,%s\n",++lineno,uc,lc,sd,sc,a);
+                printf("lineno:=%d Uppercasecount:=%d lowercasecount:=%d SingleDigitcount:=%d specialcharactercount:=%d,%s\n",++lineno,uc,lc,sd,sc,a);
            
                i =-1;
                 
