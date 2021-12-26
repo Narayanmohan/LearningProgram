@@ -54,7 +54,8 @@ for(i=0;(a[i]=getc(fp2))!=EOF;i++)
             a[i]='\0';
             lineno++;
         
-                
+                   
+               printf("%d %s \n",lineno,a);              
           
                if(lineno % 24 == 0)
                {
@@ -63,8 +64,7 @@ for(i=0;(a[i]=getc(fp2))!=EOF;i++)
                }            
 
 
-          printf("%d %s \n",lineno,a);
-    
+   
          i=-1;    
       }
     
