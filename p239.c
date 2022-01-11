@@ -96,7 +96,7 @@ int main(int argc,char *argv[])
         
                             if(b[j]=='\0')
                              {
-                                i=j;
+                                i=k;
  
                              }                   
   
