@@ -68,6 +68,7 @@ int main(int argc, char *argv[])
 
         return 0;
 
+
       }  
 
       fp2= fopen(argv[1],"r");
@@ -115,7 +116,7 @@ int main(int argc, char *argv[])
              
          }     
         
-        printf("LineNo: %d Timesexist = %d,%s\n ",++lineno,count,a);           
+        printf(" LineNo: %d Timesexist = %d,%s\n",++lineno,count,a);           
        
         i=-1;           
       }
