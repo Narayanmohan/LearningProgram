@@ -17,7 +17,7 @@ strawberry
 #include<stdio.h>
 int main(int argc, char *argv[])
 {
-    int i ,j,k,l,m,n;
+    int i,j,k,l,m,n,s;
     
     char a[100];
     char b[100];
@@ -53,7 +53,7 @@ for(k=0;(c[k]=getchar())!='$';k++);
 c[k]='\0';
 
 
-for(i=0;(a[i]=getc(fp2))!=EOF;i++)
+for(i=0,l=0;(a[i]=getc(fp2))!=EOF;i++)
 {
 
         if(a[i]=='\n')
@@ -61,16 +61,16 @@ for(i=0;(a[i]=getc(fp2))!=EOF;i++)
         
             a[i]='\0';
 
-             for(i=0,l=0;a[i];)
+             for(s=0;a[s];)
              {
  
-                for(n=i,j=0;a[n]==b[j]&&b[j]!='\0';n++,j++);
+                for(n=s,j=0;a[n]==b[j]&&b[j]!='\0';n++,j++);
                 
                 if(b[j]=='\0')
                 {
             
-                  
-                     for(i=n,m=0;c[m]!='\0';m++,l++)
+                  //s=n-delete
+                     for(s=n,m=0;c[m]!='\0';m++,l++)
                      { 
                              
                     
@@ -84,21 +84,30 @@ for(i=0;(a[i]=getc(fp2))!=EOF;i++)
  
                else
                 {
-                   d[l]=a[i];
+                   d[l]=a[s];
                    l++;
-                   i++;
+                   s++;
                 }   
                 
                 
             }
             
-           printf("%s",d); 
+ 
+           
            i=-1;
+
+           d[l++]='\n';
+           
+           
             
           }
-            
+        
+           
  
  }
+ 
+printf("%s\n",d); 
+
 fclose(fp2);
  
  }
