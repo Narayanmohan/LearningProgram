@@ -28,7 +28,7 @@ union Biodata
     {
         char name[100];
         int age;
-        float salary;
+        float  salary;
 
     }b;
 
@@ -74,7 +74,7 @@ printf("Name=%s\n Age=%d \nsalary=%f\n",m.b.name,m.b.age,m.b.salary);
 
 printf("\n--------------Payslip----------------------");
 
-printf("Hra=%f\n da=%f\n pf=%f\n NetSalary=%f\n ",hra,da,pf,netsalary);
+printf("\n Hra=%f \n da=%f \n pf=%f \n NetSalary=%f\n ",hra,da,pf,netsalary);
 
 
 }
