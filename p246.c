@@ -60,7 +60,7 @@ while(m.b.name[0]!='$')
 
     scanf("%d%f",&m.b.age,&m.b.salary);
     
-    scanf("%s",m.b.name);
+    
 
         
     for(i=0;i<sizeof(struct bio);i++)
@@ -68,7 +68,7 @@ while(m.b.name[0]!='$')
         putc(m.ch[i],fp);
     }
 
-
+scanf("%s",m.b.name);
 }
 fclose(fp);
 
