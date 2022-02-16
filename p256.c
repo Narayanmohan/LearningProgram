@@ -1,7 +1,7 @@
 /*Program No-p256.c
 dt-2-14-2022
 Concept-FileHandling with Union
-Next Program-Display the nth record
+Next Program-Display the nth record with declaring accountnumber inside the structure
 ---------------------------------------------------------------------------------------------------------------------------------
 Example:
 
@@ -11,9 +11,9 @@ if user enters value 1 then first record of biodata will be displayed and First 
 int main(int argc,char *argv[])
 {
 
-int i,j,nthrecord,offset,ctr;
+int i,j,nthrecord,offset,ctr,offset2;
 
-int accountnumber;
+
 union Biodata
 {
     struct bio
@@ -21,6 +21,7 @@ union Biodata
         char name[100];
         int age;
         float salary;
+        int accountnumber;
      
     }b;
     
@@ -39,6 +40,7 @@ if(argc<3)
 }
 
 fp=fopen(argv[1],"r");
+
 fp1=fopen(argv[2],"r");
 
 if(fp==NULL || fp1==NULL)
@@ -64,26 +66,18 @@ for(i=0;i< (sizeof(struct bio));i++)
 
 }
 
+offset2=(nthrecord-1)*(sizeof(struct bio));
+
+fseek(fp1,offset2,0);
+
 printf("Name=%s\n Age=%d\n Salary=%f\n",m.b.name,m.b.age,m.b.salary);
 
-ctr=0;
 
-while(feof(fp1)==0)
-{
-
-   fscanf(fp1,"%d",&accountnumber);
-
-   if(ctr==nthrecord)
-   {
+      fscanf(fp1,"%d",&m.b.accountnumber);
    
-       printf("AccountNumber=%d",accountnumber);
-             
-   
-   }
-   
-ctr= ctr+1;
+      printf("AccountNumber=%d",m.b.accountnumber);
 
-}
 fclose(fp);
+
 fclose(fp1);
 }
