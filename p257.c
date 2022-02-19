@@ -2,12 +2,21 @@
 dt-2-16-2022
 Concept-File Handling
 Next Program-Display the Nth record along with payslip
+--------------------------------------------------------------------------------------------
+Note:
+
+When Execute the Program follow the below steps.
+
+1-cc p257.c
+2-./a.out Summer.txt ac.txt
+3-Enter 1
+
 --------------------------------------------------------------------------------------------*/
 #include<stdio.h>
 int main(int argc,char *argv[])
 {
 
-int i,nthrecord,offset,offset1,ctr;
+int i,nthrecord,offset,offset1,ctr,accountnumber;
 float hra;
 float da;
 float pf;
@@ -85,13 +94,13 @@ while(feof(fp1)==0)
 
 ctr =ctr+1;
 
-fscanf(fp1,"%f%f%f",&hra,&da,&pf);
+fscanf(fp1,"%d",&accountnumber);
 
 
    if(ctr==nthrecord)
    {
    
-       printf("HRA=%f\n DA=%f\n,PF=%f\n NETSALARY=%f\n",hra,da,pf,netsalary);
+       printf("AccountNumber=%d\n,Hra=%f\n  PF=%f\n DA= %f\n Netsalary=%f\n",accountnumber,hra,pf,da,netsalary);
   
    }
 }
