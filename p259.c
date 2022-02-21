@@ -42,32 +42,43 @@ int b;
 }
 ------------------------------------------------------------------------------------*/        
 #include<stdio.h>
+
+int sumoftwonumbers(int a,int b);
 int main()
 {
 
-    int firstnumber,secondnumber,s;
+   int firstnumber,secondnumber,s;
     
+    printf("---Enter FirstNumber---\n");
+    
+    printf("---Enter SecondNumnber---\n");
+
     scanf("%d%d",&firstnumber,&secondnumber);
 
 
     //Call Function
     s = sumoftwonumbers(firstnumber,secondnumber);
 
-
-
     printf("%d",s);
 
 
 }
 
+int sumoftwonumbers(int a,int b)
 
-int sumoftwonumbers(a,b)
-int a;
-int b;
+
 {
+
     int sum;
     sum = a+b;
     return sum;
 
 }
+
+
+
+
+
+
+
 
