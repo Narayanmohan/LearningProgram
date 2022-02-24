@@ -8,7 +8,10 @@ float aoc(float num1);
 int main()
 {
 
+
+
     int r;
+
     float areaofcir;
     
  
@@ -16,7 +19,7 @@ int main()
     
     scanf("%d",&r);
    
-    areaofcir = 3.14 *r*r;
+    areaofcir = aoc(r);
     
     printf("Area of Circle = %f",areaofcir);
 
@@ -31,6 +34,7 @@ float aoc(float num1)
     float t;
     
     t=3.14 *num1 *num1;
+
     return t;
 
 }
