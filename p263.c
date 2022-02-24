@@ -17,7 +17,7 @@ int main()
     
     scanf("%d",&r);
     
-    volsphere = (4.0/3.0)*3.14*r*r*r;
+    volsphere = vos(r);
     
     printf("Volume of sphere =%f",volsphere);
     
