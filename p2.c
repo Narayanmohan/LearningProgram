@@ -1,4 +1,4 @@
-/*Program 2.c
+/*Program p1.c
 dt-4-13-2021
 sum of two integer number*/
 
