@@ -1,14 +1,14 @@
 /*program p11.c
 dt 4-14-2021
-Area of circle using scanf function
-3.14*r*r */
-
-
+Next Program-Area of circle using scanf function
+3.14*r*r
+----------------------------------------------------------- */
 #include<stdio.h>
 int main()
 {
 
  float Areaofcir;
+
  int r;
  
  scanf("%d",&r);
@@ -17,7 +17,6 @@ int main()
  
  
  printf("Area of circle = %f ", Areaofcir);
-
 
 
 }
