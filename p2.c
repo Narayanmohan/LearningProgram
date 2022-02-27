@@ -6,9 +6,13 @@ sum of two integer number*/
 int main()
 {
 int a,b,c;
+
 a =10;
+
 b=77;
+
 c = a+ b;
+
 printf("%d sum of two number=",c);
 
 
