@@ -1,6 +1,7 @@
-/*PROGRAM P6.C
+/*PROGRAM p6.C
 DT - 4-14-2021
-VOLUME OF CYLINDER */
+Next Program -VOLUME OF CYLINDER 
+----------------------------------------------------------------*/
 
 #include<stdio.h>
 int main()
@@ -11,11 +12,11 @@ int main()
  int h;
  r = 7;
  h = 2;
- 
+
  volume=(3.14*r*r*h);
+
  
- 
-  printf(" volume of cylinder = %f ", volume);	
+ printf(" volume of cylinder = %f ", volume);	
 
 
 
