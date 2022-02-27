@@ -1,4 +1,4 @@
-/*program 1.c
+/*program p1.c
 dt-4-13-2021
 print your name */
 
