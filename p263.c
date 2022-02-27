@@ -27,9 +27,9 @@ int main()
 float vos(float num1)
 {
     
-    float t,r;
+    float t;
     
-    t = (4.0/3.0)*3.14*r*r*r;
+    t = (4.0/3.0)*3.14*num1*num1*num1;
     
     return t;
 
