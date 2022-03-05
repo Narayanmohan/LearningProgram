@@ -2,70 +2,52 @@
 dt-3-1-2022
 Concept-Function
 Next Program-Read any number from 0-999 and display in words
----------------------------------------------------------------------------*/
+-------------------------------------------------------------*/
 #include<stdio.h>
 void singledigit(int num);
 void teens(int num);
 void tens(int num);
-void hundred(int num);
-
+void twodigit(int num);
 int main()
 {
 
-    int no,q,r,s;
+  int no,q,r;
 
-    printf("Enter Any Number from 0-999\n ");
-
-    scanf("%d",&no);
-    
-    if(no>=0 && no<=9)
-    {
-        singledigit(no);
-        
-    }
-
-    else if(no>=11 & no<=19)
-    {
-        teens(no);
-    
-    }
+  printf("Enter Any Number from 0-999\n");
+ 
+ 
+ scanf("%d",&no);
+ 
    
-   else if(no%10==0)
+  if(no>99&& no<=999) 
    {
-  
-         tens(no);  
-     
-   }
+ 
+     q=(no/100);
    
-   /*else if(no%100==0)
-   {
-          
-       singledigit(no);
-       printf("Hundred"); 
-       
-   }*/
-   
-   else
-   {
-   
-   q = no-(no%10);
-   tens(q);
-   
-   r=no%10;
-   singledigit(r);
-
-   s=no%100;
-   singledigit(s);
-   printf("Hundred");
-         
+     singledigit(q);
+ 
+     printf("Hundred");
+ 
+ 
+         if(r=no%100)
+         { 
+             if(r>=11 && r<=19)
+             {
+             teens(r);	
+             }
+                                   
+             else 
+             {
+             twodigit(r);
+             }
+         } 
+ 
    } 
 
-}
-
-
+}   
+    
 void singledigit(int num)
 {
-
 
  switch(num)
  {
@@ -183,7 +165,18 @@ void tens(int num)
  
 } 
  
+void twodigit(int num)
+{
+  int q,r;
 
+  q=num-(num%10);
+  tens(q);
+
+  r=num%10;
+  singledigit(r);
+  
+
+}
 
 
 
