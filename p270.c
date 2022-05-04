@@ -13,7 +13,7 @@ int main()
 
   int num,q,r,s,t;
 
-  printf("Enter Any Number from 0-999\n");
+
 
   scanf("%d",&num);
   
