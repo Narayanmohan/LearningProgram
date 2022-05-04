@@ -11,11 +11,14 @@ void twodigit(int num);
 int main()
 {
 
-  int num,q,r,s;
+  int num,q,r,s,t;
 
   printf("Enter Any Number from 0-999\n");
 
   scanf("%d",&num);
+  
+  if(num<=999)
+  {
   
   if(num<100)
   {
@@ -23,31 +26,44 @@ int main()
     twodigit(num);
     
   }
-  else if(num/100 ==0)
-  {
-  
-    singledigit(num);
 
-    printf("Hundred");
+  else if(num%100 ==0)
+   { 
+     q=(num/100);
+     
+     singledigit(q);
+
+     printf("Hundred");
     
   
   }
-  else if
-  {
-    q=num-(num%100);
+  else   
+    {
     
-    s=(q%100==0);
-    singledigit(s);
-    printf("Hundred");
-    
-    r=(num%100);
-    twodigit(r);
-    
+   
+    q=num/100;
+    singledigit(q);
+    printf("Hundred"); 
+   
  
-  }
-  
-}
+    r =(num%100);
+    twodigit(r);
+ 
+    
+}    
 
+
+    
+}    
+
+ else
+ {
+ 
+  printf("Not a valid three digit \n");
+ }
+
+    
+}
 
  
 void twodigit(int num)
