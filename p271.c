@@ -2,26 +2,28 @@
 dt-5-5-2022
 Concept-Function
 Next Program-Read and Display ten numbers using Array using Function
+//Example-pass by value 
 --------------------------------------------------------------------------*/
 #include<stdio.h>
-void Read();
-void Display();
+
+void Read(int a[]);
+void Display(int a[]);
 int main()
 {
-int k,l;
 
-Read(k);
+int a[10];
 
-Display(l);
+Read(a);
+
+Display(a);
 
 }
 
-void Read()
+void Read(int a[])
 {
     int i;
     
-    int a[10];
-        
+       
     for(i=0;i<10;i++)
     {
         scanf("%d",&a[i]);
@@ -31,16 +33,16 @@ void Read()
 
 }
 
-void Display()
+
+void Display(int b[])
 {
  
  int j;
  
- int a[10];
     
     for(j=0;j<10;j++)
     {
-        printf("%d",a[j]);
+        printf("%d",b[j]);
     
     }
 
