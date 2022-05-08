@@ -19,7 +19,6 @@ printf("%d",s);
 
 }
 
-
 void Read(int a[])
 {
     int i;
@@ -38,13 +37,18 @@ int Bigten(int b[])
     int j,Biggest;
     
     Biggest=b[0];
-    
-     if(Biggest<b[j])
-     {
+
+
+    for(j=0;j<10;j++)
+    {
+     
+      if(Biggest < b[j])
+      {
         Biggest=b[j];
      
-     }
+        }
+    }
 
 return Biggest;
     
- }
+}
