@@ -4,8 +4,8 @@ Concept:Function
 Next Program-Display 3x3 Matrix
 ---------------------------------------------------------------------------------------*/
 #include<stdio.h>
-void Read(int a[3][3]);
-void MatrixDisplay(int p[3][3]);
+void Read(int a[][3]);// Funtion Prototype
+void MatrixDisplay(int p[][3]);// Function Prototype
 int main()
 {
 
@@ -14,12 +14,12 @@ int main()
     Read(a);
     
     MatrixDisplay(a);
-    
+
 
 
 }
 
-void Read(int a[3][3])
+void Read(int a[][3]) // Function Definition
 {
     int i,j;
     
@@ -39,7 +39,7 @@ void Read(int a[3][3])
 }
 
 
-void MatrixDisplay(int p[3][3])
+void MatrixDisplay(int p[][3]) // Function Definition
 {
 
     int j,k;
