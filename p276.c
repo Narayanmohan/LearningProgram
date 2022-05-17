@@ -1,4 +1,5 @@
-/*Program No-p276.c
+
+./*Program No-p276.c
 dt-5-16-2022
 Concept-Function
 Next Program-Find the Transpose of the Given Matrix
@@ -13,15 +14,13 @@ int main()
 
 int a[3][3];
 int b[3][3];
-int e[3][3];
+int z[3][3];
 
 Read(a);
 
 Display(a);
 
 Transpose(a);
-
-  
 
 }
 
@@ -78,10 +77,9 @@ void Transpose(int b[][3])
  
    for(l=0;l<3;l++)
    {
-
        
     printf("%d\t",b[l][k]);
-    
+
    
    }
  
