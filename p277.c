@@ -1,7 +1,8 @@
 /*Program No-p277.c
 dt-5-18-2022
 Concept-Function
-Next Program-Find the sum of Two Matrices
+Next Program-Find the sum of Matrices- My way
+
 -------------------------------------------------------*/
 #include<stdio.h>
 void read(int a[][3]);
@@ -12,9 +13,9 @@ int main()
     int a[3][3];
     int b[3][3];
     
-    read(a);
-    resultsum=sumofMatrix(a);
-    printf("Sum of Matrix = %d",resultsum);
+  read(a);
+  resultsum=sumofMatrix(a);
+  printf("Sum of Matrix = %d",resultsum);
 
 }
 
@@ -49,12 +50,14 @@ int sumofMatrix(int b[][3])
         {
         
             sum = sum+ b[k][l];
-        
+            
+       
         }
     
     
     }
-    
+  
+ 
   return sum;  
 
 }
