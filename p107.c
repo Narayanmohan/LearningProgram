@@ -1,9 +1,9 @@
 /*
+
 Program No- p107.c
 dt-8-29-2021
 Concept: Char Array
 Next Program: Read and Display text until ' $' is given 
-
 ----------------------------------------------------------------------------------------*/
 #include<stdio.h>
 int main()
