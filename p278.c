@@ -16,7 +16,10 @@ int b[3][3];
 int c[3][3];
 
 read(a);
+
 read(b);
+
+prodoftwoMatrix(a,b,c);
 
 Display(c);
 
@@ -63,7 +66,6 @@ void Display(int c[][3])
     }
 
 }
-
 
 
 void prodoftwoMatrix(int a[][3],int b[][3],int c[][3])
