@@ -11,9 +11,6 @@ int main()
  
     char a[100];
 
-    char b[100];   
-    
-     
     readtext(a);
 
     Display(a);
