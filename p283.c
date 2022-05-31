@@ -74,7 +74,6 @@ void copy(char a[],char b[],int nthcha)
 }
 
 
-
 void display(char b[])
 {
 
