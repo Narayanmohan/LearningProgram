@@ -8,7 +8,9 @@ Next Program-Read text until '$' is givn and Copy Nth characters from the mth Po
 int mpos,nthcha,limit;
 
 void read(char a[100]);
+
 void copy(char a[100],char b[100],int nthcha,int mpos);
+
 void display(char c[100]);
 
 int main()
