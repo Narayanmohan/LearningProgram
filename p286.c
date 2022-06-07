@@ -9,10 +9,9 @@ void copy(char a[100],char b[100],int num);
 void display(char c[100]);
 int len(char d[100]);
 
-int num,length;
-
 int main()
 {
+    int num,length;
     
     char a[100];
     char b[100];
@@ -22,9 +21,7 @@ int main()
     read(a);
 
     scanf("%d",&num);
-
-    len(a);
-
+    
     copy(a,b,num);
   
     display(b);
@@ -48,7 +45,7 @@ void read(char a[])
 void copy(char a[],char b[],int num)
 {
     
-    int i,j;
+    int i,j,length;
     
     length=len(a);
     
