@@ -1,7 +1,7 @@
 /*program No-p287.c
 dt-6-16-2022
 Concept-Function
-Next Program-Reverse the given text
+Next Program-Read text until '$' is given and Reverse the text
 ----------------------------------------------------------------------------------*/
 #include<stdio.h>
 void read(char a[100]);
