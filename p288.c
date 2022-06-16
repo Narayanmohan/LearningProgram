@@ -9,7 +9,6 @@ void merge(char a[100],char c[100]);
 void display(char c[100]);
 int len(char c[100]);
 int length;
-
 int main()
 {
 char a[100];
@@ -20,8 +19,10 @@ read(a);
 read(b);
 merge(a,c);
 merge(b,c);
-display(c);
 
+printf("After Merge = %s",c);
+
+display(c);
 
 }
 
@@ -39,7 +40,7 @@ void read(char a[])
 int len(char c[100])
 {
 
-    int j,length;
+    int j;
     
     length =0;
     
@@ -63,11 +64,16 @@ int i,j;
 
 length=len(c);
 
+printf(" c b4 merging = %s",c);
+
+printf("%d",length);
+
     for(i=0,j=length;a[i];i++,j++)
     {
         c[j]=a[i];
 
     }
+
 c[j]='\0';
 }
 
