@@ -74,7 +74,6 @@ void display(char b[])
     }
 
 
-
 }
 
 
