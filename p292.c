@@ -5,13 +5,13 @@ Next Program-Read text until $ is given and Store the starting position of each 
 --------------------------------------------------------------------------------------------------*/
 #include<stdio.h>
 void read(char a[100]);
-void storestartingpos(char a[100],char b[100]);
-void display(char b[100]);
+void storestartingpos(char a[100],int b[100]);
+void display(int b[100]);
 
 int main()
 {
     char a[100];
-    char b[100];
+    int b[100];
     
     read(a);
     
@@ -33,7 +33,7 @@ void read(char a[])
 
 }
 
-void storestartingpos(char a[],char b[])
+void storestartingpos(char a[],int b[])
 {
     
     int i,j,po;
@@ -62,7 +62,7 @@ b[j]=-1;
 
 }
 
-void display(char b[])
+void display(int b[])
 {
   
   int j;
