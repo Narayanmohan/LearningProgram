@@ -53,14 +53,10 @@ int TimesPatternExist(char a[],char b[])
                        
                       }
                                       
-                //return count;        
-                
-                //printf("The total count is = %d",count);
 
              }   
 
 return count;
          
-printf("the total count = %d",count);
    
 }
