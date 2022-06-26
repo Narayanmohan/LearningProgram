@@ -9,11 +9,14 @@ void read(char a[100]);
 int TimesPatternExist(char a[100], char b[100]);
 int main()
 {
-
     char a[100];
+
     char b[100];
+
     int total;
+
     read(a);
+
     read(b);    
   
     total = TimesPatternExist(a,b);
