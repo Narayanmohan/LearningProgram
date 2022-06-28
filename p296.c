@@ -10,7 +10,11 @@ Input- i love india
 Input- love
 
 Output- i--india
+------------------------------------------------------------
 
+- cc p296.c
+- ./a.out p296.c
+-mon tue mon tue$tue$ enter
 -----------------------------------------------------------*/
 #include<stdio.h>
 void read(char a[100]);
