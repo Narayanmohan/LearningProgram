@@ -54,8 +54,8 @@ void replacePattern(char a[],char b[], char c[],char d[])
     
     for(i=0,l=0;a[i];)
     {
-        
-        
+ 
+     
         for(n=i,j=0;a[n]==b[j] && b[j]!='\0';n++,j++);
         
         
@@ -98,10 +98,8 @@ void display(char d[])
     
     }
 
+
 }
-
-
-
 
 
 
