@@ -10,7 +10,7 @@ void writeToFile(FILE *fp);
 int main(int argc, char *argv[])
 {
 
-//FILE *fp;
+FILE *fp;
 
 if(argc<2)
 {
@@ -30,13 +30,12 @@ if(fp==NULL)
 
 
 writeToFile(fp);
+
 fclose(fp);
 
 }
 
-void writeToFile(fp)
-
-FILE *fp;
+void writeToFile(FILE *fp)
 {
 
 char ch;
