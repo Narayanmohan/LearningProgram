@@ -39,12 +39,11 @@ void displayOnScreen(FILE *fp)
 
     char ch;
     
-    while(ch!=EOF)
+    while((ch=getc(fp))!=EOF)
     {
     
         putchar(ch);
-        ch=getc(fp);
-    
+            
     }
 
 
