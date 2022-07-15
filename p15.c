@@ -8,6 +8,7 @@ int main()
 {
    
    int f;
+
    float Fartocel;
    
    scanf("%d",&f);
