@@ -1,7 +1,8 @@
 /* Program No P20.c
 dt- 4-15-2021
-if control structure
-Biggest of Two numbers */
+Concept-if control structure
+Biggest of Two numbers
+---------------------------------------------------------------*/
 
 #include<stdio.h>
 int main()
@@ -16,6 +17,6 @@ int main()
         
         else
             printf("b is biggest number = %d ", b);
-        
+   
 
 }
