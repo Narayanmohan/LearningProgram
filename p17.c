@@ -1,13 +1,16 @@
 /* program p17.c
 dt-4-14-2021
+Concept-IF Condition
 using if control structure
-Given integer number is negative or not*/
+Given integer number is negative or not
+---------------------------------------------------------------------------*/
 
 #include<stdio.h>
 int main()
 {
 
     int num;
+
     scanf("%d",&num);
     
     if(num<0)
@@ -17,7 +20,6 @@ int main()
     else
     
         printf("Given number is Not a Negative number = %d ",num);
-
 
 
 }
