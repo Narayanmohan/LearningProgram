@@ -1,9 +1,11 @@
 /* Program No P18.C
+Concept-IF Condition
 IF CONTROL STRUCTURE
 DT-4-15-2021
-GIVEN INTEGER NUMBER IS ZERO OR NOT */
-
+GIVEN INTEGER NUMBER IS ZERO OR NOT
+-------------------------------------------------------------*/
 #include<stdio.h>
+
 int main()
 {
     int num;
@@ -15,9 +17,7 @@ int main()
             
         else
             printf("Given number is not a zero number = %d ",num);
-            
-
-            
+    
 
 
 }
