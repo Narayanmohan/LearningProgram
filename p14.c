@@ -21,7 +21,5 @@ printf("Area of Triangle = %f ", Areaoftri);
 
 
 
-
-
 }
 
