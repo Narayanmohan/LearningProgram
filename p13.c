@@ -20,6 +20,4 @@ volofcyl = 3.14*r*r*h;
 printf("volume of cylinder is = %f ",volofcyl);
 
 
-
-
 }
