@@ -1,5 +1,6 @@
 /* program p16.c
 dt 4-14-2021
+Concept - IF Condition
 Control structure using if condition 
 Given integer number is positive or NOT 
 ---------------------------------------------------------*/
@@ -8,6 +9,7 @@ Given integer number is positive or NOT
 int main()
 {
   int a;
+
   scanf("%d",&a);
   
       if(a>=0)
@@ -15,7 +17,5 @@ int main()
           
       else
          printf("Not a positive Number = %d ",a);
-  
-
-
+ 
 }
