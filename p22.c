@@ -1,7 +1,9 @@
 /* Program No-  p21.c
 dt 4-15-2021
+Concept-IF Condition
 If control structure
-Smallest of three numbers */
+Next Program-Smallest of three numbers
+------------------------------------------------------------------------------*/
 
 #include<stdio.h>
 int main()
@@ -24,7 +26,6 @@ int main()
               else
               
                   printf(" c is smallest = %d ", c);
-
 
 
 }

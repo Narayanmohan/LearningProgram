@@ -25,6 +25,7 @@ This is Arvindar
 ---------------------------------------------------------------------------*/
 #include<stdio.h>
 void displayLineByLine(FILE *fp,char a[100]);
+int flag;
 int main(int argc, char *argv[])
 {
 
@@ -50,12 +51,15 @@ int main(int argc, char *argv[])
         return 0;
         
         }        
-    
-
-    displayLineByLine(fp,a);
+        
+    if(flag==1)
+    {
+      
+      displayLineByLine(fp,a);
+     
+    } 
  
     fclose(fp);        
-
 
 
 }
@@ -63,23 +67,29 @@ int main(int argc, char *argv[])
 void displayLineByLine(FILE *fp,char a[])
 {
     
-    int i;
+    int i,flag;
     
-    for(i=0;(a[i]=getc(fp))!=EOF;i++)
+    while((a[i]=getc(fp))!=EOF)
     {
     
         if(a[i]=='\n')
-        {
+         {
         
-            a[i]='\0';
+             flag=1;
+ 
+             a[i]='\0';
             
-            printf("\n%s",a);
+             printf("\n%s",a);
             
-            i=-1;
+             i=-1;
         
         }
-    
-    
+
+      else
+        {
+            flag=0;
+        
+        }    
     
     }
 
