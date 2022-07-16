@@ -1,7 +1,7 @@
 /*Program No - p52.c
 dt-4-18-2021
 Concept: Switch Case
-Program Name : Read a single digit number and print it in word
+Next Program Name : Read a single digit number and print it in word
 -------------------------------------------------------------------
 Note:-1
 Single variable can take any one of the value[ ie.. one variable has multiple branching
@@ -29,9 +29,6 @@ Note:2
         ----
         ----
         ----
-   
-  
- 
  
  }
 Note:3
@@ -96,17 +93,12 @@ Note:5
 
     
          default:
-            printf(" Print word only for single digit number = %d ",num); 
+           printf(" Print word only for single digit number = %d ",num); 
+   
     
-
-     
      
      }
 
- 
- 
- 
- 
  
  
  }
