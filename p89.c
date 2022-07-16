@@ -1,8 +1,13 @@
 /* Program No-P89.c
 dt-7-14-2021
-Concept: Matrix
-Program Name:Find the sum of 2 Matrixes */
 
+Concept: Matrix
+
+Next Program Name:Find the sum of 2 Matrixes
+-----------------------------------------------------------------------*/
+#include<stdio.h>
+int main()
+{
 int i,j,a[3][3],b[3][3],c[3][3];
 
 
@@ -71,7 +76,7 @@ while(i<3)
     while(j<3)
     {
     
-     printf("%d",c[i][j]);
+     printf("%d \n",c[i][j]);
     
      j++;    
     
