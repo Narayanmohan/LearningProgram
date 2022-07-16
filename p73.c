@@ -6,6 +6,7 @@ Next Program: Classify the given character is vowel or Not  and Print the vowel 
 #include<stdio.h>
 int main()
 {
+
 char cha;
 scanf("%c",&cha);
 
