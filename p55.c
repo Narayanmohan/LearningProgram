@@ -1,6 +1,7 @@
 /*Program No - p55.c
 dt - 4-18-2021
-Program Name: Re-write : print a word to the given vowel uppercase as well as lower case
+Concept-Switch Case
+Next Program Name: Re-write : print a word to the given vowel uppercase as well as lower case
 --------------------------------------------------------------------------------------------
 Analysis:
      input: ch
