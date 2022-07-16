@@ -1,6 +1,7 @@
 /* Program No- P70.c
 dt 8-8-2021
 Concept: Looping
+
 Next Program:Read and display characters other than $, is the  character is upper , lower,digit or Special characters 
 -----------------------------------------------------------------------------------------------------------------------*/
 #include<stdio.h>
