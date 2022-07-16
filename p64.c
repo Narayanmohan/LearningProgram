@@ -1,6 +1,8 @@
 /*program Name- P64.c
 dt-8-8-2021
+
 Concept: Looping while
+
 Next Program: Read and Display no other than 1000 
 ---------------------------------------------------------
 Analysis:
@@ -19,16 +21,17 @@ int main()
 {
 
 int a ;
+
 scanf("%d",&a);
 
     while(a!=1000)
     {
         printf("%d",a);
+
         scanf("%d",&a);    
 
     
     }
-
 
 
 }
