@@ -1,5 +1,6 @@
 /*Program No: p71.c
 dt-8-9-2021
+Concept-While Loop
 Next Program: Read and Display the characters other than $, count upper, lower digit, specia characters
 ----------------------------------------------------------------------------------------------------------*/
 #include<stdio.h>
