@@ -1,15 +1,13 @@
 /* Program No - p25.c
 dt- 4-15-2021
-IF CONTROL STRUTURE
-GIVEN INTEGER NO IS SINGLE DIGIT OR NOT */
-
-
+Concept-IF CONTROL STRUTURE
+Next Program-GIVEN INTEGER NO IS SINGLE DIGIT OR NOT
+-------------------------------------------------------------------------------*/
 #include<stdio.h>
 int main()
 {
 
     int num;
-        
 
     scanf("%d",&num);
     
@@ -20,7 +18,5 @@ int main()
         else
         
             printf("Entered number is NOT a single digit = %d ",num);
-
-
 
 }
