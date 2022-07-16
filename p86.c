@@ -32,5 +32,4 @@ while(i<10)
 avg = (sum/i);
 printf("%f",avg); 
 
-
 }
