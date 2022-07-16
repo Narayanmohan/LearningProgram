@@ -22,6 +22,7 @@ int main()
 
     scanf("%c", &cha);
     
+
         if(cha>=97 && cha<=122)
             {
             
@@ -34,8 +35,7 @@ int main()
 
         else
         
-                printf("Not able to Convert to upper case = %c " ,lcu);
-              
+                printf("Not able to Convert to upper case = %c " ,lcu);  
 
 
 }
