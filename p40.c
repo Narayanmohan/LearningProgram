@@ -1,7 +1,7 @@
 /* Program No - p40.c
 dt 4-18-2021
 Concept: Nested Ternary Expression
-Program Name: Biggest of 3 Number using Nested Ternary Expression 
+Nexty Program Name: Biggest of 3 Number using Nested Ternary Expression 
 --------------------------------------------------------------------
 Analysis:
          input : a, b,c
@@ -23,8 +23,6 @@ int main()
     Biggest3 = a>b?(a>c?a:c):b>c?b:c;
     
     printf("Biggest of 3 is  = %d ", Biggest3);
-    
-
 
 
 
