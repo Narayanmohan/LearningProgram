@@ -1,7 +1,7 @@
 /*program No - p58.c
 dt-4-18-2021
 Concept- Looping While
-Program Name: Print the Number 1000 to 1
+Next Program Name: Print the Number 1000 to 1
 ---------------------------------------------------------
 Analysis:
   Input : NIL 
