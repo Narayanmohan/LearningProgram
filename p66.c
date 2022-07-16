@@ -1,5 +1,6 @@
 /*Program P66.c
 dt-8-8-2021
+Concept-While Loop
 Next Program: Read and Display the numbers other than 1000, count the numbers of positive,Negative and zeros
 ------------------------------------------------------------------------------------------------------------
 Analysis:
