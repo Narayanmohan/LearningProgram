@@ -1,6 +1,6 @@
 /*program No - p47.c
 dt -4-18-2021
-Program: Given character is upper, lower, digit or special character 
+Next Program: Given character is upper, lower, digit or special character 
 ---------------------------------------------------------------------
 Analysis:
 Input: cha;
@@ -21,6 +21,7 @@ Logic:
 int main()
 {
     char cha;
+    
     scanf("%c",&cha);
     
         if(cha>=65 && cha<= 90)
