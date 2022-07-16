@@ -11,8 +11,6 @@ int c, ctr,a;
 c=0;
 ctr=1;
 
-
-
 while(ctr<10)
 {
 
