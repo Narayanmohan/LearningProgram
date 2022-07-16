@@ -1,7 +1,6 @@
 /*Program No- p44.c
 dt-4-18-2021
 Program Name: Given character is Upper or NOT
-
 Note:
 
 Ascii value of A = 65 and Z = 90
@@ -22,6 +21,7 @@ Analysis:
 int main()
 {
     char cha;
+    
     scanf("%c",&cha);
       
        if (cha>=65 && cha <=90)
