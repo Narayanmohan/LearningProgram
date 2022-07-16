@@ -1,8 +1,8 @@
 /*program No - p23.c
 dt- 4-15-2021
-if control structure
-% operator gives remainder of an integer division
-Given integer number is Even or Not */
+Concept-If Statement-if control structure
+NOTE-% operator gives remainder of an integer division
+Next Program - Given integer number is Even or Not */
 
 #include<stdio.h>
 int main()
@@ -19,7 +19,6 @@ int main()
         else
         
             printf( " num is odd number =  %d ",num);
-
 
 }
 
