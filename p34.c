@@ -1,7 +1,7 @@
 /*program p34.c
 dt-4-18-2021
 Concept: Implicit if with ! NOT Operator
-Given integer number is even or not 
+Next Program-Given integer number is even or not 
 ---------------------------------------
 Analysis:
         
@@ -17,7 +17,6 @@ Analysis:
                      F = Odd Number
                      
 --------------------------------------*/
-
 #include<stdio.h>
 int main()
 {
