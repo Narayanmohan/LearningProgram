@@ -1,7 +1,7 @@
 /*Program Number-p60.c
 dt-4-18-2021
 Concept: Looping while
-program Name: Print the years from 1000 to 3000 and say it is leap year or NOT
+Next program Name: Print the years from 1000 to 3000 and say it is leap year or NOT
 -------------------------------------------------------------------------------
 
 Analysis:
