@@ -1,6 +1,6 @@
 /*program No - p46.c
 dt- 4-18-2021
-Program Name: Given character is digit or NOT
+Next Program Name: Given character is digit or NOT
 
 Note:
     ASCII value of 0-48,1-49,9-57
@@ -20,6 +20,7 @@ int main()
 {
 
  char cha;
+
  scanf("%c",&cha);
  
 
