@@ -1,6 +1,6 @@
 /*program No - p43.c
 dt - 4-18-2021
-Program: Print the ASCII value of the character
+Next Program: Print the ASCII value of the character
 
 Note:
  In Print statment if you put %d you get the ASCII
@@ -17,13 +17,11 @@ int main()
 {
 
          char cha;
+     
          scanf("%c", &cha);
+     
          printf("ASCII value for the Entered character is  = %d ", cha);       
       
-
-
-
-
 
 }   
    
