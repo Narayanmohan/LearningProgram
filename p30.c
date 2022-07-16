@@ -20,14 +20,18 @@ int main()
 {
 
 int a ;
+
 scanf("%d",&a);
      
      if(a)
        
         printf(" Entered Number is NOT a zero = %d",a);
+
         
      else
+
         printf(" Entered Number is zero = %d" ,a);
+
 
 
 }
