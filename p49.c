@@ -1,6 +1,6 @@
 /*Program No- p49.c
 dt-4-18-2021
-Program Name:Convert Lowercase to upper case
+Next Program Name:Convert Lowercase to upper case
 Note:
     -32 Logic
 ------------------------------------------------------------
@@ -35,8 +35,7 @@ int main()
         else
         
                 printf("Not able to Convert to upper case = %c " ,lcu);
-                
-
+              
 
 
 }
