@@ -1,7 +1,7 @@
 /*Program No - p61.c
 dt-4-18-2021
 concept: Looping while
-program Name: Print the Numbers between two limit
+Next program Name: Print the Numbers between two limit
 ---------------------------------------------------------
 Analysis:
     
