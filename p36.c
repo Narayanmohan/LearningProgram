@@ -1,6 +1,6 @@
 /* Program no - p36.c
 dt-4-18-2021
-Biggest of Two numbers using Ternary Expression
+Next Program-Biggest of Two numbers using Ternary Expression
 Concept: Ternary Expression
 
 Notes:
