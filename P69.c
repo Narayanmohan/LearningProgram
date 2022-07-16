@@ -17,6 +17,7 @@ int main()
 {
 
 char c;
+
 scanf("%c",&c);
 
 while(c!='$')
