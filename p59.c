@@ -1,7 +1,8 @@
 /*Program No- p59.c
 dt-4-18-2021
 Concept: Looping -while
-Program Name: Print the numbers from 1 - 100 and say the number is even or NOT 
+Next Program Name: Print the numbers from 1 - 100 and say the number is even or NOT 
+
 --------------------------------------------------------------------------------
 Analysis:
     
