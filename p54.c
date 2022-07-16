@@ -1,7 +1,7 @@
 /*Program No - p54.c
 dt - 4-18-2021
 Switch Statment
-Program Name: Re-write the problem for both upper case and lower case
+Next Program Name: Re-write the problem for both upper case and lower case
 -----------------------------------------------------------------------------
 Analysis:
         Input :cha
