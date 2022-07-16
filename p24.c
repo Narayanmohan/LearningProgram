@@ -1,7 +1,8 @@
 /* Program No p24.c
 dt 4-15-2021
-IF CONTROL STRUCTURE
-Given year is leap Year or Not*/
+Concept -IF CONTROL STRUCTURE
+Next Program - Given year is leap Year or Not
+----------------------------------------------------------------------------------*/
 
 #include<stdio.h>
 int main()
