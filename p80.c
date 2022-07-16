@@ -27,7 +27,6 @@ while(ctr<rc)
     ctr=ctr+1;
 
 
-
 }
  printf("\n");
  rc= rc +1;
