@@ -17,7 +17,6 @@ int main()
     int a, b, c,smallest3;
 
     scanf("%d%d%d",&a,&b,&c);
-    
 
     smallest3 = a<b?(a<c?a:c):b<c?b:c;
     
