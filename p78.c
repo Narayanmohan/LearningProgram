@@ -17,11 +17,10 @@ while(ctr<6)
     printf("*");
     
     ctr = ctr+1;
-    
+   
 
 
 }
-
 
 
 }
