@@ -1,7 +1,7 @@
 /*program No- p51.c
 dt-4-18-2021
-Program Name: Print a word to the given vowel
----------------------------------------------
+Next Program Name: Print a word to the given vowel
+------------------------------------------------------------
 Analysis:
     input  cha;
     output:Vowelinword
