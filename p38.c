@@ -1,6 +1,6 @@
 /* Program No - p38.c
 dt- 4-18-2021
-Program: Biggest of 3 Numbers using Ternary expression
+Next Program: Biggest of 3 Numbers using Ternary expression
 ------------------------------------------------------
 Analysis:
         
@@ -32,6 +32,5 @@ int main()
          
              printf("Biggest of Three Number is  = %d ", Big3);
     
-
 }
                        
