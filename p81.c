@@ -3,10 +3,8 @@ dt-8-10-2021
 Concept: Looping while + Star pattern 
 Next Program: Print the following Pattern
 
-
 Notes:
 when inner loop increments by rc= rc+1 then it goes to outer while loop and then it assigns ul=6.
-
 
 
 ******
