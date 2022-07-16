@@ -1,6 +1,6 @@
 /*program No- p50.c
 dt-4-18-2021
-Program Name: Read a single digit number and print it in word
+Next Program Name: Read a single digit number and print it in word
 --------------------------------------------------------------------------
 Analysis:
     input:num
@@ -24,6 +24,7 @@ int main()
 {
 
     int num;
+    
     scanf("%d",&num);
         
             if(num==0)
