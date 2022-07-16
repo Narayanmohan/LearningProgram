@@ -1,7 +1,7 @@
 /*program No- p37.c
 dt - 4-18-2021
 Concept: Ternary Expression
-Program: Smallest of Two numbers
+Next Program: Smallest of Two numbers
 ------------------------------------------
 Analysis:
         input: a, b, c;
