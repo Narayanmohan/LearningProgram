@@ -44,7 +44,6 @@ while(i<10)
 
      scanf("%d",&a[i]);
      i=i+1;
-
 }
 
 i=0;
