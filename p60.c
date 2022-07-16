@@ -23,6 +23,7 @@ int main()
 {
 
     int c;
+
     c = 1000;
     
     while(c <= 3000)
