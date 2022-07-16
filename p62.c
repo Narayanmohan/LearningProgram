@@ -1,7 +1,7 @@
 /*Program No- p62.c
 dt-4-18-2021
 Concept: Looping while
-Program Name: Print the numbers between two limits and say the number is even or odd
+Next Program Name: Print the numbers between two limits and say the number is even or odd
 --------------------------------------------------------------------------------------------------
 Analysis:
 
