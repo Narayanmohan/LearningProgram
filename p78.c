@@ -9,6 +9,7 @@ int main()
 
 
 int ctr;
+
 ctr =1;
 
 while(ctr<6)
