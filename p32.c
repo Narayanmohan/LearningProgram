@@ -1,7 +1,7 @@
 /*program No-p32.c
 dt-4-17-2021
 IMPLICIT IF CONCEPT
-Given year is leap year or NOT using implicit if condition
+Next Program -Given year is leap year or NOT using implicit if condition
 ------------------------------------------------------------------
 Analysis:
     y = year%4
@@ -30,9 +30,6 @@ int main()
             else
             
                 printf("Given year is leap year = %d",year);
-
-
-
 
 
 }
