@@ -1,5 +1,6 @@
 /*program No- p67.c
 dt 8-8-2021
+Concept-While Loop
 Next Program: Read and Display the numbers other than 1000 and Find sum of positive, negative numbers 
 -----------------------------------------------------------------------------------------------------
 Analysis:
