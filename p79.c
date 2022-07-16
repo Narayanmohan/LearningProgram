@@ -1,6 +1,7 @@
 /*program No- p79.c
 dt- 8-10-2021
 Concept: Looping while
+
 Next Program: Print * [ Asterisk ] in the following Pattern
 
 ****
@@ -64,7 +65,6 @@ printf("\n");
 rcnt= rcnt +1;
 
 }
-
 
 
 }        
