@@ -1,7 +1,7 @@
 /*program no -p35.c
 dt 4-18-2021
 Implicit if with ! Not operator ie..if(!a) 
-Progam: Given year is leap year or not 
+NextProgam: Given year is leap year or not 
 ------------------------------------------
 Analysis:
     Input : year
@@ -25,8 +25,5 @@ int main()
            else
                printf(" Entered year is NOT a leap yar = %d",y);
                
-
-
-
 
 }             
