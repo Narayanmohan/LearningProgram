@@ -1,7 +1,7 @@
 /*Program No- p82.c
 dt-8-10-2021
 Concept: Looping while + Pattern Printing * [ Star Pattern Printing ]
-Next program : Print the followign * Star pattern
+Next program : Print the following * Star pattern
 
      *
     **
@@ -60,7 +60,6 @@ while(ctr<rc)
 
 
 }
-
 
 
 }              
