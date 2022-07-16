@@ -19,7 +19,6 @@ ctr=0;
 space=0;
 num=0;
 
-
 scanf("%d",&num);
 
 while(rc < num)
