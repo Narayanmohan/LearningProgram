@@ -2,16 +2,12 @@
 dt-8-14-2021
 Concept: ARRAY
 Next Program : Biggest of 10 Numbers using an Array 
--
-
-
 --------------------------------------------------------------*/
 #include<stdio.h>
 int main()
 {
 
 int i,a[10],c;
-
 
 
 c=a[0];
