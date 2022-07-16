@@ -1,6 +1,6 @@
 /*program No - p33.c
 dt -4-17-2021
-Given integer is zero or NOT
+Next Program-Given integer is zero or NOT
 
 Concept: Implicit if check with ! (this operator will Negates the result)
 
@@ -35,8 +35,6 @@ int main()
         else
         
             printf("Given number is NoTZERO = %d", a);
-
-
 
 
 }                 
