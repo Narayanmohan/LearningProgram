@@ -1,6 +1,6 @@
 /* program No - p48.c
 dt - 4-18-2021
-Program Name- Convert upper case to Lower case
+Next Program Name- Convert upper case to Lower case
 
 Note:
  The difference between the upper case and lower case letter is 32, so you add 32 to the upper case , will get teh corresponding lower case letters 
@@ -21,6 +21,7 @@ int main()
 {
 
     char cha,lc;
+    
     scanf("%c",&cha);
         
             if(cha >=65 && cha<=90)
