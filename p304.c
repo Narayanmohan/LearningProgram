@@ -15,7 +15,6 @@ When Run the program we have to Run a below
 cc p304.c
 ./a.out Readch.txt
 
-
 Output should be as follow:
 
 This is Mohanraj
@@ -82,8 +81,9 @@ int i,flag;
 flag=0;
 
 i=0;
-       while((a[i]=getc(fp))!=EOF)        
-       {                 
+
+while((a[i]=getc(fp))!=EOF)        
+{                 
                     
                         if(a[i]=='\n')
                         {
@@ -98,7 +98,7 @@ i=0;
                         
                i++;                                
                          
-        }
+}
         
 return flag;        
 
