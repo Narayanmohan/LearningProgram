@@ -30,7 +30,8 @@ while(c<a[i])
     else	
     {
     i++;
-    }}
+    }
+}
 printf("%d",pb);
 
 }
