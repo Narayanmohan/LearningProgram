@@ -51,20 +51,17 @@ int main(int argc, char *argv[])
         return 0;
         
         }        
-        
-    if(flag==1)
-    {
+   
       
-      displayLineByLine(fp,a);
-     
-    } 
- 
-    fclose(fp);        
+        displayLineByLine(fp,a);
+
+
+        fclose(fp);        
 
 
 }
 
-void displayLineByLine(FILE *fp,char a[])
+ void displayLineByLine(FILE *fp,char a[])
 {
     
     int i,flag;
@@ -72,25 +69,19 @@ void displayLineByLine(FILE *fp,char a[])
     while((a[i]=getc(fp))!=EOF)
     {
     
-        if(a[i]=='\n')
-         {
-        
-             flag=1;
- 
-             a[i]='\0';
-            
-             printf("\n%s",a);
-            
-             i=-1;
-        
-        }
-
-      else
-        {
-            flag=0;
-        
-        }    
-    
+                    if(a[i]=='\n')
+                        {                 
+                            a[i]='\0';
+           
+                                                  
+                            printf("\n%s",a);
+                
+                           i=-1;
+                        }       
     }
 
+
 }
+
+
+

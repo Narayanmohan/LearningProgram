@@ -2,7 +2,6 @@
 dt 7-15-2021
 Concept: Matrix
 Program Name: Find the Transpose of a given matrix 
-
 Transpose => Rows will become Column
 --------------------------------------------------------------------------------------------------
  Input					  Output
