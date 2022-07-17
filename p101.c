@@ -1,4 +1,3 @@
-
 /*Program No-p101.c
 dt 8-15-2021
 Concept: Array
