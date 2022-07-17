@@ -1,8 +1,8 @@
 /*Program No- P92.c
 dt-7-15-2021
 Concept: Matrix
-Program Name- Find the sum of given Matrix */
-
+Program Name- Find the sum of given Matrix
+----------------------------------------------------------------------*/
 #include<stdio.h>
 int main()
 {
