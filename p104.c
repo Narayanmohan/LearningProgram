@@ -21,7 +21,7 @@ while(i<=9)
 
 }
 
-scanf("%d",&num);
+ scanf("%d",&num);
 
 ctr=0;
 
