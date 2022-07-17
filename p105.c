@@ -6,7 +6,6 @@ Next Program:Read and Display a sentence until '.' is given
 ------------------------------------------------------------------------*/
 #include<stdio.h>
 int main()
-
 {
 int i;
 
