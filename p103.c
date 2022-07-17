@@ -27,6 +27,7 @@ int main()
  }
 
 // \0= > means Marking that is the end of the array
+
 a[i]='\0';
 
 i=0;
