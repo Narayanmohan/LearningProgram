@@ -1,8 +1,8 @@
 /*Program No - P97.c
 dt-7-15-2021
 Concept: Matrix
-Program Name:Count the number of times the given number exist */
-
+Next Program Name:Count the number of times the given number exist
+----------------------------------------------------------------------------------*/
 #include<stdio.h>
 int main()
 {
