@@ -1,8 +1,8 @@
 /*Program No- P96.c
 dt - 7-15-2021
 Concept: Matrix
-Program Name-Search the given number Exist in the Matrix */
-
+Next Program Name-Search the given number Exist in the Matrix
+-------------------------------------------------------------------------------------*/
 #include<stdio.h>
 int main()
 {
