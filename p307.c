@@ -89,6 +89,8 @@ void count(char a[])
  
  int i;
 
+uc=lc=sd=sc=0;
+
 for(i=0;a[i]!='\0';i++)
 {
 
