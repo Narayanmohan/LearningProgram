@@ -40,15 +40,18 @@ s=displaytheFilePagebyPage(fp,a);
 
     while(s==1)
     {
+
+        lineno++;
         
-        if(lineno%24==0)
+        printf("%d %s \n",lineno,a);     
+        
+        if(lineno%24 == 0)
         {
         
             scanf("%d",&pageno);
         }
    
-   
-    printf("%d %s \n ",++lineno,a);
+ 
 
     s=displaytheFilePagebyPage(fp,a);    
 
