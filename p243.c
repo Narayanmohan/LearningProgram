@@ -2,6 +2,28 @@
 dt-1-16-2022
 Concept-CommandLineArgument-FileHandling
 Next Program-Display the line if pattern does not exist(Give the pattern in command line Argument)
+---------------------------------------------------------------------------------------------------------- 
+Note:1 - The input read file(linebyline.txt)has the following content
+
+apple ball car apple pineapple mango
+
+pineapple cat apple
+
+Baby God hat icecream
+
+
+Note-2- When execute the program follow the below step
+
+cc p243.c
+
+./a.out linebyline.txt mango
+
+
+Note-3 - Output should display as below
+
+lineno3: Baby God hat icecream
+
+
 --------------------------------------------------------------------------------------------------------*/
 #include<stdio.h>
 int main(int argc,char *argv[])
