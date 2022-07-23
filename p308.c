@@ -13,7 +13,10 @@ int cw,cl,cc;
 int main(int argc, char *argv[])
 {
 
+    
     int s,lineno;
+    
+    cl=0;
     
     FILE *fp;
     
@@ -46,7 +49,7 @@ s=read(fp,a);
         count(a);
     
     
-        printf("Lineno:=%d,countofwords:=%d,countofcharacters:=%d,%s\n",++lineno,cw,cc,a);
+        printf("countoflines:=%d,countofwords:=%d,countofcharacters:=%d,%s\n",cl,cw,cc,a);
 
         s=read(fp,a);
         
@@ -111,6 +114,6 @@ void count(char a[])
                     
         }      
         
-
+cl++;
 }
 
