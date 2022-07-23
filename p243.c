@@ -1,6 +1,7 @@
 /*Program No p243.c
 dt-1-16-2022
 Concept-CommandLineArgument-FileHandling
+Concept-Give the pattern in Command Line Argument
 Next Program-Display the line if pattern does not exist(Give the pattern in command line Argument)
 ---------------------------------------------------------------------------------------------------------- 
 Note:1 - The input read file(linebyline.txt)has the following content
@@ -22,7 +23,6 @@ cc p243.c
 Note-3 - Output should display as below
 
 lineno3: Baby God hat icecream
-
 
 --------------------------------------------------------------------------------------------------------*/
 #include<stdio.h>
