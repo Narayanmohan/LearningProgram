@@ -6,7 +6,7 @@ Next Program-Read from file and count no of times the given pattern exists Line 
 ------------------------------------------------------------------------------------------------------
 [0][1][2]
 
-./a.out means => p309.c exist will be in the 0th Index
+./a.out means => p309.c In the 0th Index program Number will be exist.
 
 argv[1]=> has File name (ie) linebyline
 
@@ -23,8 +23,11 @@ so, if we take the array index
 -----------------------------------------------------------------------------------------------------*/
 #include<stdio.h>
 int read(FILE *fp,char a[100]);
-int countofTimesPatternExist(char b[100]);
+
+int countofTimesPatternExist(char a[100],char b[100]);
+
 int count;
+
 int main(int argc, char *argv[])
 {
 
@@ -36,7 +39,6 @@ FILE *fp;
 
 char a[100];
 
-char b[100];
 
     if(argc<2)
     {
@@ -58,19 +60,18 @@ fp=fopen(argv[1],"r");
     
 s=read(fp,a);
 
-  while(s==1)    
+
+while(s==1)    
     {
         
-        c=countofTimesPatternExist(b);
+                    
+        c=countofTimesPatternExist(a,argv[2]);
         
         printf("Lineno:=%d, CountofTimesPatternExist:=%d,%s\n",++lineno,c,a);
         
         s=read(fp,a);
     
-    
     }
-
-
 }
 
 int read(FILE *fp,char a[])
@@ -104,25 +105,25 @@ return flag;
  
 }
 
-int countofTimesPatternExist(char b[])
+int countofTimesPatternExist(char a[],char b[])
 {
-    
-    char *argv[2];
 
-    int i,j,k,count;
-    
-        for(i=0,count=0;b[i];i++)
-        {
+    int i,j,k;
+       
+  
+    for(i=0,count=0;a[i]!='\0';i++)
+       { 
         
-            for(k=i,j=0;b[k]==argv[2][j] && argv[2][j]!='\0';k++,j++);
-            
-                if(argv[2][j]=='\0')
+            for(k=i,j=0;a[k]==b[j] && b[j]!='\0';k++,j++);
+    
+                              
+                if(b[j]=='\0')
                 {
                 
                     count= count+1;
                     
-                }
-        }
+                }  
+       }
 
 return count;
 
