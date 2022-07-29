@@ -15,7 +15,6 @@ steps to run:
 cc p311.c
 ./a.out apple MultipleFile.txt linebyline.txt
 
-
 Output should be displayed as below:
 
 File:=MultipleFile.txt,Lineno:=3,MatchedPatterLine= 1,Banana Mango apple
