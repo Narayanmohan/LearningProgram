@@ -22,7 +22,6 @@ File:=MultipleFile.txt,Lineno:=3,MatchedPatterLine= 1,Banana Mango apple
 File:=linebyline.txt,Lineno:=1,MatchedPatterLine= 1,apple ball car apple pineapple mango
 File:=linebyline.txt,Lineno:=2,MatchedPatterLine= 1,pineapple cat apple
 File:=linebyline.txt,Lineno:=4,MatchedPatterLine= 1,apple cherry Blueberry apple
-
 -------------------------------------------------------------------------------------*/
 #include<stdio.h>
 int read(FILE *fp,char a[100]);
