@@ -2,6 +2,7 @@
 dt-7-7-2022
 Concept-Function with File Handling
 Next Program-Read character from keyboard and Write it to the File
+
 ------------------------------------------------------------------------------------*/
 #include<stdio.h>
 void writeToFile(FILE *fp);
