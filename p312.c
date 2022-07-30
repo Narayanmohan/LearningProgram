@@ -24,7 +24,6 @@ int main(int argc, char *argv[])
 
     char b[100]; 
 
-
         if(argc<2)
         {
             printf("Invalid Argument");
