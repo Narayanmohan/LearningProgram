@@ -1,4 +1,3 @@
-
 /*Program No-p278.c
 dt-5-20-2022
 Concept-Function
