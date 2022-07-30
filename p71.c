@@ -7,7 +7,6 @@ Next Program: Read and Display the characters other than $, count upper, lower d
 int main()
 {
 
-
 int uc, lc,dc,sc;
 
 char c;
