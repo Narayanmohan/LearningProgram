@@ -4,9 +4,11 @@ Concept-Function
 Next Program-Read text until '$' is given and Merge the text
 --------------------------------------------------------------------------------*/
 #include<stdio.h>
+
 void read(char a[100]);
 void merge(char a[100],char c[100]);
 void display(char c[100]);
+
 int len(char c[100]);
 int length;
 int main()
