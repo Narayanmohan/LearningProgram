@@ -6,7 +6,6 @@ Next Program-Read character from keyboard and Write it to the File
 #include<stdio.h>
 void writeToFile(FILE *fp);
 
-
 int main(int argc, char *argv[])
 {
 

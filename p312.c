@@ -14,6 +14,7 @@ int flag;
 int main(int argc, char *argv[])
 {
 
+
     int s,lineno,c;
     
     FILE *fp;

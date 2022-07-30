@@ -46,7 +46,6 @@ int main(int argc,char *argv[])
     }
 
 s=read(fp,a);
-
     
   while(s==1)
   {
@@ -60,8 +59,7 @@ s=read(fp,a);
           
          printf("Lineno:=%d,%s\n",lineno,a);
           
-       }
-       
+       }    
             
     
       s=read(fp,a); 

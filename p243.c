@@ -19,7 +19,6 @@ cc p243.c
 
 ./a.out linebyline.txt mango
 
-
 Note-3 - Output should display as below
 
 lineno3: Baby God hat icecream

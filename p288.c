@@ -49,7 +49,7 @@ int len(char c[100])
     {
     
         length = length +1;
-    
+                                                          
     }
 return length;
 

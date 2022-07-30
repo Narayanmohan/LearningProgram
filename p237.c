@@ -14,6 +14,7 @@ int main(int argc, char *argv[])
 int i,lineno,cw,cl,cc;
 
 char a[100];
+
 FILE *fp2;
 
 if(argc<2)
@@ -23,6 +24,7 @@ if(argc<2)
     return 0;
 
 }
+
 fp2= fopen(argv[1],"r");
 
 if(fp2==NULL)

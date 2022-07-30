@@ -20,6 +20,7 @@ int main()
 int i,num;
 
 char a[100];
+
 char b[100];
 
 i=0;
@@ -39,6 +40,7 @@ while(a[i]!='$')
 a[i]='\0';
 
 i=0;
+
 
 scanf("%d",&num);
 
