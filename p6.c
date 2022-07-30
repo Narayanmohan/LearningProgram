@@ -2,7 +2,6 @@
 DT - 4-14-2021
 Next Program -VOLUME OF CYLINDER 
 ----------------------------------------------------------------*/
-
 #include<stdio.h>
 int main()
 {
@@ -17,7 +16,6 @@ int main()
 
  
  printf(" volume of cylinder = %f ", volume);	
-
 
 
 }
