@@ -1,6 +1,8 @@
 /* program No- p112.c
 dt-8-29-2021
+
 Concept: Char Array
+
 Next Program: Read text until '$' is given and copy first 'N' characters to another array 
 --------------------------------------------------------------------------------------------
 Example:
