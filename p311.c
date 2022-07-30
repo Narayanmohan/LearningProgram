@@ -21,7 +21,7 @@ File:=MultipleFile.txt,Lineno:=3,MatchedPatterLine= 1,Banana Mango apple
 File:=linebyline.txt,Lineno:=1,MatchedPatterLine= 1,apple ball car apple pineapple mango
 File:=linebyline.txt,Lineno:=2,MatchedPatterLine= 1,pineapple cat apple
 File:=linebyline.txt,Lineno:=4,MatchedPatterLine= 1,apple cherry Blueberry apple
--------------------------------------------------------------------------------------*/
+--------------------------------------------------------------------------------------*/
 #include<stdio.h>
 int read(FILE *fp,char a[100]);
 
@@ -43,11 +43,9 @@ char c[100];
 
     if(argc<3)
     {
-        
-        printf("Invalid Argument");
-        
-        return 0;
-    
+       
+        printf("Invalid Argument");        
+        return 0;    
     }
     
     
@@ -62,18 +60,15 @@ char c[100];
      {
         
             printf("File Opening Error");
-            return 0;
-            
+            return 0;            
      }  
     
-
 s=read(fp,a);
 
  while(s==1)
  {        
   
     lineno++;
- 
     
     v=displayPatMatchedLine(argv[1],a);
                 
@@ -132,15 +127,13 @@ int displayPatMatchedLine(char c[],char a[])
     for(i=0;a[i]!='\0';i++)
     {
  
-        for(k=i,j=0;a[k]==c[j] && c[j]!='\0';k++,j++);
+        for(k=i,j=0; a[k]==c[j] && c[j]!='\0';k++,j++);
         
             if(c[j]=='\0')
-            {
-            
+            {            
                 i=k;                
                 
-                flag=1;
-            
+                flag=1;            
             }
     
     }
