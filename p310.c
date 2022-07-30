@@ -12,6 +12,7 @@ When run the program follow the below step
 
   - cc p310.c
   -./a.out apple linebyline.txt
+
 -------------------------------------------------------------------------------------*/
 #include<stdio.h>
 int read(FILE *fp,char a[100]);
