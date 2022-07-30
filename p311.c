@@ -7,7 +7,7 @@ Note - This is called as Grep All Files in UNIX
 --------------------------------------------------------------------------------------
 When run the Program follow the below step:
 
--apple is the searchable pattern text
+-apple is the searchable pattern text.
 -MultipleFile.txt is the first text file.
 -linebyline.txt is the second text file.
 
