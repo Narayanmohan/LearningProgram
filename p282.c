@@ -1,4 +1,3 @@
-
 /*
 Program No-p282.c
 dt-5-28-2022
@@ -22,7 +21,6 @@ int main()
    
    display(b);
    
-
 }
 
 void read(char a[100])
