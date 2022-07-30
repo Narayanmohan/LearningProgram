@@ -4,7 +4,6 @@ Concept-FileHandling
 NextProgram-Read from file and count number of words, lines and characters line by line
 ------------------------------------------------------------------------------------------
 Note:
-
 When run the program use countofwords.txt as a inputfile.
 ------------------------------------------------------------------------------------------*/
 #include<stdio.h>
