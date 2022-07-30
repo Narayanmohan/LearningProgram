@@ -3,6 +3,7 @@ dt-7-30-2022
 Concept-Function with File Handling
 Concept-Passing Searchable pattern using Command Line Argument
 Next Program-Display the line if pattern does not exist(Give the pattern in Cmd Line Argument)
+
 ---------------------------------------------------------------------------------------------------------*/
 #include<stdio.h>
 int read(FILE *fp,char a[100]);
