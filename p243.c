@@ -12,7 +12,6 @@ pineapple cat apple
 
 Baby God hat icecream
 
-
 Note-2- When execute the program follow the below step
 
 cc p243.c
@@ -22,7 +21,6 @@ cc p243.c
 Note-3 - Output should display as below
 
 lineno3: Baby God hat icecream
-
 --------------------------------------------------------------------------------------------------------*/
 #include<stdio.h>
 int main(int argc,char *argv[])
