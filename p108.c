@@ -1,10 +1,8 @@
-/*
-Program No- p102.c
+/*Program No- p108.c
 dt-8-29-2021
 Concept: Char Array
 Next Program: Classify the given character is uppercase, lowercase,singledigit or speoial character until '$' is given 
 -----------------------------------------------------------------------------------------------------------------------------------*/
-
 #include<stdio.h>
 int main()
 {
