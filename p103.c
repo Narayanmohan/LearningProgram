@@ -1,5 +1,4 @@
-/*
-Program No p103.c
+/* Program No p103.c
 dt 8-29-2021
 Concept: CHAR ARRAY
 Next Program: Read amd Display a word until ''[ space] is given 
