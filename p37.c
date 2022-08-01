@@ -23,5 +23,4 @@ int main()
                
                    printf("Smallest of Two Numbers = %d ", c);
 
-
 }             
