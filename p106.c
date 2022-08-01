@@ -1,10 +1,7 @@
-
-/*
-Program No- p106.c
+/*Program No- p106.c
 dt 8-29-2021
 Concept: Char Array
 Next Program: Read and Display a line until '\n' is given
-
 -----------------------------------------------------------------------------------*/
 #include<stdio.h>
 int main()
