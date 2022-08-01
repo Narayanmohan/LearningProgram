@@ -18,15 +18,16 @@ int main()
 {
 
  char ar;
+ 
  scanf("%c",&ar);
 
      if(ar=='+'|| ar=='-'||ar=='*'||ar=='/')
   
-        printf("Entered operator is Arithmetic =%c",ar);
+         printf("Entered operator is Arithmetic =%c",ar);
   
      else
   
-        printf("Entered opeartor is NOT a Arithmetic Opeartor = %c",ar);
+         printf("Entered opeartor is NOT a Arithmetic Opeartor = %c",ar);
 }
   
   
