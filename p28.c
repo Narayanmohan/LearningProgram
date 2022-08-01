@@ -13,8 +13,7 @@ cha=='a'||cha=='e'||cha='i'||cha=='o'||cha=='u'
 
 True = vowel
 False =  Not a vowel
------------------------------------------- */
-
+-------------------------------------------*/
 #include<stdio.h>
 int main()
 {
