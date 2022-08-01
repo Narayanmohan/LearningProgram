@@ -23,7 +23,6 @@ Example:
      0   1   2    3    4
 b=> [0] [4] [11] [19] [29]
 
-
 mthline =>1
 
 nthline =>2
