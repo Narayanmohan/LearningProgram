@@ -1,5 +1,4 @@
-/* 
-Program No- p116.c
+/* Program No- p116.c
 dt-8-30-2021
 Concept: Char Array
 Next Program: Read text until '$' is given and Convert upper case to lower case 
@@ -22,7 +21,6 @@ while(a[i]!='$')
  i++;
  
  scanf("%c",&a[i]);
-
 
 }
 
