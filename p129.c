@@ -9,7 +9,6 @@ Example:
                     
 Input -> [I] [L][O][V][E] [I][N][D][I][A]['\0']
 
-
           0  1  2  3   4
 Input -> [L][O][V][E]['\0']
 
