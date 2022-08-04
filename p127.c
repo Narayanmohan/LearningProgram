@@ -21,8 +21,7 @@ B=> [L][0][V][E][\0]
 NOTE:
 
  $=> Means, in the last array it occupies "NULL" [ NULL = '\0']
- 
- 
+
 ------------------------------------------------------------------------------------------*/
 #include<stdio.h>
 int main()
