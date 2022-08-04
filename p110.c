@@ -1,5 +1,4 @@
-/*
-Program No- p110.c
+/*Program No- p110.c
 dt-8-29-2021
 Concept:Char Array
 Next Program: Count the number of words, lines and character until '$' is given
