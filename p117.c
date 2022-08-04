@@ -2,7 +2,7 @@
 dt-8-30-2021
 Concept: Char Array
 Next Program:Read text until '$' is given and Convert comma to Semicolon
----------------------------------------------------------------------------------------------------*/
+---------------------------------------------------------------------------*/
 #include<stdio.h>
 int main()
 {
