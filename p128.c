@@ -6,7 +6,6 @@ Next Program-> Count the  number of time the given pattern is exists.
 Note:
 
 After the last room of an array , there is no value that is why we put '\0'
-
 ----------------------------------------------------------------------------*/
 #include<stdio.h>
 int main()
