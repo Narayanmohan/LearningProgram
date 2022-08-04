@@ -8,7 +8,6 @@ Example:
 Input=> A => abcd
 B=> efgh
 c=> abcdefgh
-
 ----------------------------------------------------------------------------------*/
 #include<stdio.h>
 int main()
