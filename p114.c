@@ -1,7 +1,7 @@
 /*program No- p114.c
 dt-8-29-2021
 Concept:Char Array
-Next Program: Read text unitl '$' is given and copy the last 'N' th characters 
+Next Program: Read text until '$' is given and copy the last 'N' th characters 
 --------------------------------------------------------------------------------------------*/
 #include<stdio.h>
 int main()
@@ -18,8 +18,7 @@ int main()
  
   i++;
   scanf("%c",&a[i]);
- 
-  
+
  }
 
 a[i]!='\0';
