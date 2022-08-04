@@ -4,6 +4,7 @@ Concept: Char Array
 Next Program: Read text until '$' is given and Reverse the Text
 -------------------------------------------------------------------------------*/
 #include<stdio.h>
+
 int main()
 {
 
