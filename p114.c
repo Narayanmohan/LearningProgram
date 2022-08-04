@@ -6,6 +6,7 @@ Next Program: Read text until '$' is given and copy the last 'N' th characters
 #include<stdio.h>
 int main()
 {
+
  int i,j,ctr,num;
  char a[100];
  char b[100];
