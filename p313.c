@@ -8,13 +8,11 @@ int main()
 {
 
     int a,b,*pa,*pb,*pc;
-     
-        
+
     
         scanf("%d",&a);
         
         pa=&a;
-
 
     
         scanf("%d",pb);
