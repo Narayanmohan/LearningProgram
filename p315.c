@@ -19,7 +19,7 @@ int main()
         *pc=*pa>*pb?*pa:*pb;
        
                 
-                printf("%d",*pc); 
+                printf("Biggest of Two Numbers is = %d",*pc); 
 
 
 }
