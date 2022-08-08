@@ -7,20 +7,26 @@ Next Program-Product of Two Real Numbers
 int main()
 {
 
-    float a, b,*pa,*pb,*pc;
+  float a, b,*pa,*pb,*pc;
     
-        pa =&a;
-    
-        scanf("%f",pa);
-    
-        pb = &b;
-    
-        scanf("%f",pb);
       
-         
-             *pc= (*pa) * (*pc);
-        
-        printf("%f",*pc);
-    
+               
+              scanf("%f",&a);           
+              
+              pa=&a;         
+              
+       
+
+              scanf("%f",&b);
+              
+              pb=&b;
+              
+          
+
+             *pc= *pa * *pb;
+               
+
+             printf("%f",*pc);          
+
 
 }
