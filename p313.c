@@ -8,20 +8,24 @@ int main()
 {
 
     int a,b,*pa,*pb,*pc;
+     
+        
     
-    pa=&a;
-    pb=&b;
-    
-    
-        scanf("%d",pa);
+        scanf("%d",&a);
+        
+        pa=&a;
+
+
     
         scanf("%d",pb);
+        
+        pb=&b;
+        
     
-    *pc = *pa+*pb;
+        *pc = *pa+*pb;
     
-    printf("%d",*pc);
-
-
+        
+        printf("%d",*pc);
 
 
 }

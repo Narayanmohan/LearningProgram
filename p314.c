@@ -8,7 +8,6 @@ int main()
 {
 
   float a, b,*pa,*pb,*pc;
-    
       
                
               scanf("%f",&a);           
