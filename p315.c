@@ -16,7 +16,7 @@ int main()
         pb=&b;
         
             
-        *pc=*pa>*Pb?*pa:*pb;
+        *pc=*pa>*pb?*pa:*pb;
        
                 
                 printf("%d",*pc); 
