@@ -8,35 +8,24 @@ Next Program-Read and display a text until $ is given
 int main()
 {
     
-    int i,j;
+    int i;
     
-    char a[100],*ca;
+    char a[100],*pa;
     
     i=0;
         
     scanf("%c",&a[i]);
     
-    ca = &a[i];
+    pa=&a[i];
     
-        while(*ca!='$')
+        while(*pa!='$')
         {
-             i++;
-                            
-             scanf("%c",ca+i);
+                                    
+             printf("%c",*pa);
+             scanf("%c",pa);
+             
+             i++;                      
         
-        }  
-    
-    
+        } 
 
-    i=0;
-    
-        while(*ca!='$')
-        {
-        
-            printf("%c",*ca[i]);
-            
-            i++;
-        }    
-        
-
-}
+    }
