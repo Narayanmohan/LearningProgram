@@ -15,17 +15,15 @@ int main()
               pa=&a;         
               
        
-
               scanf("%f",&b);
               
               pb=&b;
               
           
-
              *pc= *pa * *pb;
                
 
-             printf("%f",*pc);          
+                printf("%f",*pc);          
 
 
 }
