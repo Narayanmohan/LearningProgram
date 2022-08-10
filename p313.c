@@ -23,7 +23,7 @@ int main()
         *pc = *pa+*pb;
     
         
-        printf("%d",*pc);
+            printf("%d",*pc);
 
 
 }
