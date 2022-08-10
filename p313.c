@@ -15,7 +15,7 @@ int main()
         pa=&a;
 
     
-        scanf("%d",pb);
+        scanf("%d",&b);
         
         pb=&b;
         
