@@ -37,7 +37,7 @@ int main()
       //Read from keyboard character by characters
      for(pa=a;(*pa=getchar())!='$';pa++);
       
-      
+     pa='\0';      
         
       // Display the keyboard input 
       for(pa=a;*pa!='\0';pa++)
