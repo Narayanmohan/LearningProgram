@@ -15,7 +15,6 @@ lc=0;
 dc=0;
 sc=0;
 
-
 for(scanf("%c",&c); c!='$'; scanf("%c",&c))
 {
 
