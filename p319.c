@@ -21,32 +21,28 @@ int main()
     
         for(pa=a;(*pa=getchar())!='$';pa++);
         
-            pa='\0';
-        
+            *pa='\0';   
         
             for(pa=a;*pa!='\0';pa++)
             {
             
-            
+                            
                 if(*pa=='\n')
                 {
                     linecount=linecount+1;
                 
                 }
                 
-                else if(*pa== ' ')
+                else if(*(pa+1)==' '||*(pa+1)=='\n'|| *(pa+1)=='\0')
                 {
                 
                     wordcount=wordcount+1;
                 
                 }
                 
-                else
-                {
-                
+                                                
                     charcount=charcount+1;
-                }
-            
+                            
             }  
     
 printf("\nlinecount=%d \nwordcount=%d \ncharcount=%d",linecount,wordcount,charcount);
