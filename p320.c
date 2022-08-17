@@ -7,7 +7,9 @@ Next Program-Read text and copy to another Array
 int main()
 {
     char a[100];
+    
     char b[100];
+    
     char *pa,*pb;
     
     pa=a;
@@ -16,7 +18,7 @@ int main()
         for(pa=a;(*pa=getchar())!='$';pa++);
                                
                           
-             pa='\0';            
+             *pa='\0';            
         
             for(pa=a;*pa!='\0';pa++)
              {
@@ -27,7 +29,8 @@ int main()
       
              }            
             
-                   
+           
+           *pb='\0';        
            
            for(pb=b;*pb!='\0';pb++)
             { 
