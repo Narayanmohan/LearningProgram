@@ -35,7 +35,7 @@ int main()
            for(pb=b;*pb!='\0';pb++)
             { 
              
-               printf("%c",*pb);            
+               putchar(*pb);            
             }                                         
 
 }
