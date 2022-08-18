@@ -2,6 +2,15 @@
 dt-8-17-2022
 Concept-Pointers with CharArray
 Next Program-Read text until $ is given and copy the first N characters to another Array
+-----------------------------------------------------------------------------------------------
+When Run the Program follow the below step
+1-cc p321.c
+2-./a.out p321.c
+3-I LOVE USA$
+4-3
+
+OUTPUT SHOULD BE=> I L
+
 ----------------------------------------------------------------------------------------------*/
 #include<stdio.h>
 int main()
@@ -11,9 +20,9 @@ int main()
     
     char b[100];
     
-        char *pa,*pb,*pc;
+        char *pa,*pb;
     
-        int i,num;
+        int num;
         
         
             pa=a;
@@ -27,16 +36,15 @@ int main()
                     
                         scanf("%d",&num);                   
                                                                                                                           
-                        for(i=0,pa=a;i<num,*pa!='\0';i++,pa++)
+                        for(pa=a;pa<(a+num);pa++)
                         {
-                           pc=&pa[num];
-                                                        
-                           *pb=*pc;
+                                                                                   
+                           *pb=*pa;
 
                             pb++;
                             
                         }
-                                      
+                                
                          
 
                       *pb='\0';
