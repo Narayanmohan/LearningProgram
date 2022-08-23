@@ -18,8 +18,7 @@ int main()
             for(pa=a;(*pa=getchar())!='$';pa++);
             
             *pa='\0';            
-
-      
+   
                 for(pa=a;*pa!='\0';pa++,pb++)
                 {
                 
