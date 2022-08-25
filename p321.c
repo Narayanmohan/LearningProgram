@@ -10,7 +10,6 @@ When Run the Program follow the below step
 4-3
 
 OUTPUT SHOULD BE=> I L
-
 ----------------------------------------------------------------------------------------------*/
 #include<stdio.h>
 int main()
@@ -48,7 +47,7 @@ int main()
                          
 
                       *pb='\0';
-                                           
+                                             
                       for(pb=b;*pb!='\0';pb++)
                       {
                                  
