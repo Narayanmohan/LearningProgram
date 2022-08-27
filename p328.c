@@ -2,7 +2,7 @@
 dt-8-26-2022
 Concept-Pointers with charArray
 Next Program-Read text until $ is given and Merge two Arrays
---------------------------------------------------------------------------*/
+-----------------------------------------------------------------------*/
 #include<stdio.h>
 int main()
 {
