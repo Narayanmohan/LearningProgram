@@ -29,7 +29,8 @@ int main()
                     
                    for(pb=b;*pb!='\0';pb++)
                    {                     
-                        pc=pc++;                        
+                        
+                                               
                         *pc=*pb;
                          pc++;                    
                     }
