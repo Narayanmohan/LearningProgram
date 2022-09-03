@@ -12,7 +12,7 @@ int i,j,n,po;
 char a[100];
 int b[100];
 
-po= 0;
+po=0;
 n=0;
 
 for(i=0;(a[i]=getchar())!='$';i++);
@@ -20,33 +20,33 @@ for(i=0;(a[i]=getchar())!='$';i++);
 
 a[i]='\0';
 
-b[j]=i;
-
-j++;
-
-
-for(i=0,j=0,b[j++]=i;a[i];i++)
+for(i=0,j=0,b[j++]=i;a[i]!='\0';)
 {
 
  if(a[i]=='\n')
  {
  
      po=i+1;
-     b[j++]= po;
      
+     b[j]= po;     
+     
+     j++;
  
  }
+i++;
 
 }
 
-b[j]=-1;
+
+b[i]=-1;
 
 scanf("%d",&n);
 
-for(i=0,i=b[n-1];a[i]!='\n' && a[i]; i++)
+for(i=b[n-1];a[i]!='\n'&& i!=-1;i++)
 {
 
-    putchar(a[i]);
+ putchar(a[i]);
+ 
 
 }
 
