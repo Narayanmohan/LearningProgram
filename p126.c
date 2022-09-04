@@ -48,7 +48,6 @@ char b[100];
     
     scanf("%c",&a[i]);
 
-
     }
 
 a[i] = '\0';
@@ -85,7 +84,7 @@ scanf("%d",&n);
 
 i=b[m-1];
 
-limit = b[n];
+limit = b[m+n];
 
 
 while(i<limit)
