@@ -8,6 +8,13 @@ Note:
 
  Here we are taking a th starting position of each line so we have assigned *pb=a;
 
+
+ a=>  | | | | | | | | | |  ->char a[100]
+  |
+ pa[]       char *pa
+  |
+ ppa[]   -> char **ppa
+
 --------------------------------------------------------------------------------------------------------------------*/
 #include<stdio.h>
 int main()
