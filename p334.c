@@ -14,7 +14,9 @@ pb=b =>we store the bth first address in pb.so the pb hold the address of b but 
 2)-*pb=a ----*pb|x708|               
 
 3)-**pb -> means value from this Address only
---------------------------------------------------------------------------------------------------------------*/
+
+4)-*pb=a-> means pb has alread has the address that address value will be other address which belongs to ath Address
+---------------------------------------------------------------------------------------------------------------------*/
 #include<stdio.h>
 int main()
 {
