@@ -39,9 +39,12 @@ int main()
                          pb++;                    
                     }                
                 }        
-            
+  
+              *pb=NULL;          
          
-             scanf("%d",&LastNthLine);       
+               scanf("%d",&LastNthLine);       
+
+
               
                   for(pa=*(pb-LastNthLine);*pa;pa++)
                   {
