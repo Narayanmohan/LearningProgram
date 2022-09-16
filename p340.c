@@ -7,10 +7,6 @@ Next Program-Sum of Two Numbers using Function Pointers
 
 int sumTwoNumber(int *pa,int *pb);
 
-int total;
-
-int a,b;
-
 int main()
 {
 
@@ -18,21 +14,20 @@ int main()
     
     k=sumTwoNumber(&x,&y);
     
-    printf("%d",k);
+    printf("Sum of Two Value =%d \n ",k);
 }
 
 int sumTwoNumber(int *pa,int *pb)
 {
 
-
-    scanf("%d%d",&a,&b);
-    
-    pa=&a;
-    
-    pb=&b;
+   int total;
     
 
-    total=*pa+*pb;
+    *pa=100;
+    
+    *pb=7; 
+    
+     total=*pa+*pb;
      
 
     return total;
