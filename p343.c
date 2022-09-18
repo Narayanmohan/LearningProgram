@@ -2,9 +2,9 @@
 dt-9-17-2022
 Concept-Function Pointers
 Concept-Passing Address from the Main Function to Function
-----------------------------------------------------------------------------*/
+Next Program-Area of Circle using Passing Address from the Main Function to Function
+-------------------------------------------------------------------------------------*/
 #include<stdio.h>
-
 void aoc(float r, float *acircle);
 
 int main()
@@ -16,8 +16,7 @@ int main()
     
     aoc(r,&acircle);
     
-    printf("%f",acircle);
-    
+    printf("%f",acircle);    
     
 
 }
@@ -29,7 +28,6 @@ void aoc(float r,float *acircle)
 
 
     *acircle=3.14*r*r;
-
 
 
 
