@@ -25,7 +25,7 @@ void read(char *pa)
 
     for(;(*pa=getchar())!='$';pa++);
     
-    *pa!='\0';
+    *pa='\0';
 
 }
 
