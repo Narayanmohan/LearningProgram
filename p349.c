@@ -43,6 +43,8 @@ void copy(char *pa,char *pb)
          pb++;    
     
     }
+    
+  *pb='\0';
 
 }
 
