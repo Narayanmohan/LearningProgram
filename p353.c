@@ -9,7 +9,7 @@ void read(char *pa);
 void reverse(char *pa,char *pb);
 void display(char *pb);
 
-int len(char *pa);
+char *len(char *pa);
 
 
 int main()
@@ -37,40 +37,33 @@ void read(char *pa)
 
 }
 
-
-
-int len(char *pa)
+char *len(char *pa)
 {
 
-    int length;
-    
-    length=0;
-    
-        for(pa;*pa!='\0';pa++)
-        {
-            length=length+1;
-        
-        }
-        
-return length;
+  for(pa; *pa!='\0'; pa++);
+  
+  return pa;
 
 }
+
+
 
 void reverse(char *pa, char *pb)
 {
 
-    int length,g;
-           
+               
     char *pt;
-       
-    length =len(pa);
     
-    
-    g=length-1;
+    char *pl;  
     
     pt=pa;
+       
+    pl=len(pa);
+        
+    pa=pl-1;
     
-        for(pa=pa+g;pa>=pt;pa--)
+       
+        for(pa;pa>=pt;pa--)
         {
         
             *pb=*pa;
