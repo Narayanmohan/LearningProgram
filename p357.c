@@ -17,7 +17,6 @@ int main()
         deleteComma(a,b);
         display(b);
 
-
 }
 
 void read(char *pa)
@@ -33,20 +32,21 @@ void read(char *pa)
 void deleteComma(char *pa, char *pb)
 {
 
-    for(;*pa!='\0';pa++,pb++)
+    for(;*pa!='\0';)
     {
     
         if(*pa==',')
         {
-          pa++;
-          
-          *pb=*pa;         
+          pa++;         
             
         }
         else
         {
-        
+             	
             *pb=*pa;
+            pa++;
+            pb++;
+            
         }        
     
     }
