@@ -5,8 +5,8 @@ Next Program-Read text until $ is given and Store the starting Position of Each 
 ----------------------------------------------------------------------------------------*/
 #include<stdio.h>
 void read(char *pa);
-void store(char pa,char **pb);
-void display(char *pb)
+void store(char *pa,char **pb);
+void display(char **pb);
 int main()
 {
     
@@ -28,7 +28,8 @@ void read(char *pa)
     
 }
 
-void store(char pa, char **pb)
+
+void store(char *pa, char **pb)
 {
 
     for(; *pa;pa++)
@@ -47,10 +48,16 @@ void store(char pa, char **pb)
 
 }
 
-void display(; *pb!=NULL;pb++)
+
+void display(char **pb)
 {
+  
+  for(; *pb!=NULL;pb++)
+  {
     
-    printf("%p \n",*pb);
+     printf("%p\n",*pb);
+     
+  }   
 
 }
 
