@@ -2,6 +2,29 @@
 dt-10-9-2022
 Concept-Function-Pointers
 Next Program-Read text until $ is given and Display nth Line from the Mth Line
+------------------------------------------------------------------------------------
+Run the Program as below"
+
+cc p360.c
+./a.out p360.c
+
+sun
+moon
+Meera
+Arvindar
+Govind
+Vasudev
+$
+
+2
+4
+
+Output should be as below:
+
+moon
+Meera
+Arvindar
+Govind
 ------------------------------------------------------------------------------------*/
 #include<stdio.h>
 void read(char *pa);
