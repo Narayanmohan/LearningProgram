@@ -14,6 +14,7 @@ int main()
     int n,m;
     
     char a[100];
+    
     char *b[100];
 
     read(a);
@@ -22,8 +23,7 @@ int main()
     
     nthLineFromMthLine(a,b);
     
-    display(a,b,m,n);   
-    
+    display(a,b,m,n);       
 }
 
 void read(char *pa)
