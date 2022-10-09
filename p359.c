@@ -20,7 +20,6 @@ int main()
         storeStarPos(a,b);
         
         displayNthLine(a,b,n);
-
 }
 
 void read(char *pa)
@@ -33,14 +32,15 @@ void read(char *pa)
 }
 
 void storeStarPos(char *pa,char **pb)
-{
-
-    for(; *pa;pa++)
+{   
+    
+    for(*pb=pa,pb++;*pa;pa++)
     {
         if(*pa=='\n')
         {
         
             *pb=pa+1;
+ 
              pb++;
         
         }
@@ -53,8 +53,8 @@ void storeStarPos(char *pa,char **pb)
 
 void displayNthLine(char *pa, char **pb,int n)
 {
-
-    for(pa=*(pb+(n-1)); *pa!='\n';pa++)
+   
+    for(pa=*(pb+n-1); *pa!='\n';pa++)
     {
         putchar(*pa);
     

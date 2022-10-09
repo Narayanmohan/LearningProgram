@@ -4,7 +4,6 @@ Concept-Function-Pointers
 Next Program-Read text until $ is given and Display nth Line from the Mth Line
 ------------------------------------------------------------------------------------*/
 #include<stdio.h>
-
 void read(char *pa);
 void nthLineFromMthLine(char *pa,char **pb);
 void display(char *pa,char **pb,int m,int n);
@@ -37,7 +36,7 @@ void read(char *pa)
 void nthLineFromMthLine(char *pa,char **pb)
 {
 
-    for(; *pa;pa++)
+    for(*pb=pa,pb++;*pa;pa++)
     {
     
        if(*pa=='\n')
@@ -57,14 +56,13 @@ void display(char *pa,char **pb,int m, int n)
     
     char *pc;
     
-    pc=*(pb+m+n);
+    pc=*(pb+m+n-1);
     
-    for(pa=*(pb+n+1);pa<pc;pa++)
+    for(pa=*(pb+m-1);pa<pc;pa++)
     {
     
         putchar(*pa);
     }
-
 
 }
 
