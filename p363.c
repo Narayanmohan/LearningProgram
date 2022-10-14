@@ -2,6 +2,14 @@
 dt-10-13-2022
 Concept-Function-Pointers
 Next Program-Read text until $ is given and Replace the Pattern
+-----------------------------------------------------------------
+
+cc p363.c
+./a.out p363.c
+
+I love india$india$USA$
+
+Output->I love USA
 ----------------------------------------------------------------*/
 #include<stdio.h>
 void read(char *pa);
@@ -38,8 +46,10 @@ void replacePattern(char *pa,char *pb, char *pc, char *pd)
 
     char *pq;
     char *pr;
+    char *ps;
     
-        for(; *pa!='\0'; pa++)
+    
+        for(; *pa!='\0';)
         {
         
             for(pq=pa,pr=pb;*pq==*pr && *pr!='\0';pr++,pq++);
@@ -48,11 +58,11 @@ void replacePattern(char *pa,char *pb, char *pc, char *pd)
                 if(*pr=='\0')
                 {                    
                     
-                    for(pa=pq; *pc!='\0';pc++,pd++)
+                    for(pa=pq,ps=pc; *ps!='\0';ps++,pd++)
                     {
                         
-                        *pd=*pc;
-                                                  
+                        *pd=*ps;
+                                                                         
                     
                     }                                                                  
                 }               
@@ -61,6 +71,7 @@ void replacePattern(char *pa,char *pb, char *pc, char *pd)
                     *pd=*pa;
                      
                      pd++;          
+                     pa++;
                 }              
         
         }
