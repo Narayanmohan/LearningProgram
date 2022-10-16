@@ -19,8 +19,6 @@ typedef struct areaofcircle
 
 }aoc; 
 
-void read(aoc ao);
-
 float displayAoc(aoc ao);
 
 int main()
@@ -37,7 +35,6 @@ int main()
                         
 }
    
-
 
 float displayAoc(aoc ao)
 {
