@@ -6,7 +6,7 @@ Next Program-Area of Circle using Typedef Structure using Function
 
 Note:
 
-Here we can not user read function because it is pass by reference
+Here we can not user read function because it is pass by Value
 so we used only scanf function.
 
 -------------------------------------------------------------------*/
