@@ -1,6 +1,6 @@
 /*Program NO-P367.c
 Dt-10-17-2022
-Concept-Typedef-Structure-Function
+Concept-Typedef-Structure-Pointer-Function
 Next Program-Read and Display a bio-data using Typedef structure-Function
 -----------------------------------------------------------------------------------*/
 #include<stdio.h>
@@ -27,10 +27,8 @@ display(&b);
 
 }
 
-
 void read(Bio *b)
 {
-
    scanf("%s%d%f",(*b).name,&(*b).age,&(*b).salary);
 
 }
