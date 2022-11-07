@@ -3,7 +3,33 @@ dt-11-7-2022
 Concept-Structure with Typecast-Function Pointers
 Concept-Typecast
 Next Program-Display the Nth Record
--------------------------------------------------------------------------------------------------*/
+-----------------------------------------------------------------------------------------------------------------
+When run the program
+cc p378.c
+./a.out BI.TXT
+
+Output should be when give 1 the first record of Bio data should be displayed.BI.TXT file has all the 3 records
+
+1
+
+RAM
+17
+170000.000000
+
+
+2
+
+ANAND
+18
+180000.000000
+
+
+3
+
+MOHAN
+19
+190000.000000
+------------------------------------------------------------------------------------------------------------------*/
 #include<stdio.h>
 typedef struct biodata
 {
@@ -51,13 +77,8 @@ offset = (nthrecord-1)*sizeof(Bio);
 
 fseek(fp,offset,0);
 
-
-
-    displaynthrecord(&b);
-  
     read(fp,&b);
-
-
+    displaynthrecord(&b);
 
 fclose(fp);
 }
