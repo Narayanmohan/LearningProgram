@@ -3,6 +3,26 @@ dt-11-6-2022
 Concept-Typedef Structure with Typecast and Function Pointers
 Concept-Typecast
 Next Program-Read bio data from File Till End of File ->Feof(fp)and display on screen character by character
+---------------------------------------------------------------------------------------------------------------
+Note:
+
+When run the program
+
+1-cc p377.c
+2-./a.out BI.TXT
+
+Output should be displayed as follow:
+
+RAM
+ 17
+ 170000.000000
+ANAND
+ 18
+ 180000.000000
+MOHAN
+ 19
+ 190000.000000
+
 --------------------------------------------------------------------------------------------------------------*/
 #include<stdio.h>
 typedef struct biodata
@@ -43,22 +63,25 @@ int main(int argc, char *argv[])
             return 0;
         }
 
-        while(feof==0)
+        
+        read(fp,&b);
+
+        while(feof(fp)==0)
         {
         
-            read(fp,&b);
-
             display(&b);
+            
+            read(fp,&b);
         
-        }
+            
+        }    
 
 fclose(fp);
-
 }
+
 
 void read(FILE *fp,Bio *b)
 {
-
 
 int i;
 
@@ -72,13 +95,12 @@ px=(char *)b;
 
     }
 
-
 }
 
 void display(Bio *b)
 {
 
-printf("%s\n,%d\n,%f",b->name,b->age,b->salary);
+   printf("\n%s\n %d\n %f",b->name,b->age,b->salary);
 
 }
 
