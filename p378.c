@@ -2,7 +2,7 @@
 dt-11-7-2022
 Concept-Structure with Typecast-Function Pointers
 Concept-Typecast
-Next Program-Display the Nth Record
+Next Program-Read from File and Display the Nth Record
 -----------------------------------------------------------------------------------------------------------------
 When run the program
 cc p378.c
@@ -46,9 +46,7 @@ int main(int argc, char *argv[])
 
 Bio b;
 FILE *fp;
-
-    char ch[sizeof(struct biodata)];
-    
+       
     int nthrecord;
     int offset;
     
@@ -96,9 +94,7 @@ void read(FILE *fp,Bio *b)
         
         }
 
-
 }
-
 
 void displaynthrecord(Bio *b)
 {
