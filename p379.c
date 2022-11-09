@@ -75,6 +75,12 @@ int main(int argc, char *argv[])
 
     write(fp,&b);
     
+    fseek(fp,offset,0);
+    
+    read(fp,&b);
+    
+    displaynthrecord(&b);
+    
     fclose(fp); 
 
 }
