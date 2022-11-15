@@ -23,25 +23,28 @@ none of the space will be wasted.
 int main()
 {
 
-    char *pa, *pb;
+    char *pa,*pb,*temp;
     int n;
+    
     
         scanf("%d",&n);
         
-        pa=(char *)malloc(n);
         
-        pb=pa;
+        pa=temp=(char *)malloc(n);
+                      
+        
         
                 for(; (*pa=getchar())!='$';pa++);
                 
                 *pa='\0';
                 
                 
-                for(;*pb;pb++)
+                for(pb=temp;*pb;pb++)
                 {
                     putchar(*pb);
                 } 
 
-free(pa);
+
+free(temp);
 
 }
