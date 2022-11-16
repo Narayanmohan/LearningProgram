@@ -2,6 +2,14 @@
 dt-11-15-2022
 Concept-Malloc
 Next Program-Merge Two Arrays
+-----------------------------------------------------------------------
+cc p382.c
+
+./a.out p382.c
+
+MEERA$ARVINDAR$
+
+Output => MEERAARVINDAR
 ----------------------------------------------------------------------*/
 #include<stdio.h>
 #include<stdlib.h>
@@ -53,5 +61,8 @@ pc=temp2=(char *)malloc(strlen(pb)+1);
      
      }   
 
+free(temp);
+free(temp1);
+free(temp2);
 
 }
