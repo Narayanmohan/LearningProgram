@@ -15,9 +15,9 @@ scanf("%d",&n);
 
     pa=(int *)malloc(n*sizeof(int));
     
-    scanf("%d",pa);
+//    scanf("%d",pa); we can type here or inside the below forloop as initiation
     
-        for(;*pa!=-1000 ;)
+        for(scanf("%d",pa);*pa!=-1000 ;)
         {
         
             printf("%d \n",*pa);
