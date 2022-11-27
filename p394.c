@@ -21,8 +21,7 @@ int main()
     
     ptevenornot = evenornot; 
        
-    b =evenornot(a);
-    
+    b =evenornot(a);  
     
     
         if(b==1)
@@ -37,11 +36,7 @@ int main()
             printf("Entered Number is odd Number \n");
         
         }
-
-
-
-
-
+        
 }
 
 int evenornot(int num)
