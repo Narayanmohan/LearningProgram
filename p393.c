@@ -22,8 +22,9 @@ int main()
     ptaoc=area;
     
     areaofcir=(*ptaoc)(r);
-    
-  printf("The Radious is = %f\n",areaofcir);
+   
+ printf("The Radious is = %f\n",areaofcir);
+
 
 }
 
