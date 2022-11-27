@@ -12,14 +12,16 @@ int main()
  
  int(*ptsum)();
  
+ int sum();
+ 
  scanf("%d%d",&firstnum,&secondnum);
  
  ptsum=sum;
  
  result =(*ptsum)(firstnum,secondnum);
  
- printf("Sum of Two Number is = %d\n",result);
-    
+ printf("Sum of Two Number is = %d\n",result);   
+ 
 
 }
 
