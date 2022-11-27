@@ -11,9 +11,11 @@ int main()
     float areaofcir;
     int r;
     
-   printf("Enter the Value for Radious\n");
+    printf("Enter the Value for Radious\n");
     
-    float area(),(*ptaoc)();
+    float area();
+    
+    float (*ptaoc)();
     
     scanf("%d",&r);
     
@@ -21,8 +23,7 @@ int main()
     
     areaofcir=(*ptaoc)(r);
     
-   printf("The Radious is = %f\n",areaofcir);
-
+  printf("The Radious is = %f\n",areaofcir);
 
 }
 
