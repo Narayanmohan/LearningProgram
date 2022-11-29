@@ -16,7 +16,7 @@ int main()
     result = num1 + num2;
     
     
-        cout<<Sum of Two Number is << num1 "+"<< num2 << "=" << result; 
+        cout<<Sum of Two Number is << num1<< "+"<< num2 << "=" << result; 
     
 
 
