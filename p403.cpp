@@ -147,7 +147,6 @@ double big3(double a5,double b5,double c5)
 
     s5=a5>b5?a5:b5;
     t5=s5>c5?s5:c5;
-
     return t5;
 }
 
