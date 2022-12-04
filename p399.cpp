@@ -19,7 +19,6 @@ main()
     
     print(result);
 
-
 }
 void read(int *a, int *b)
 {
