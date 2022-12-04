@@ -19,11 +19,11 @@ float big3(float a3,float b3,float c3);
 long big3(long a4,long b4,long c4);
 double big3(double a5,double b5,double c5);
 
-void display(int d1);
-void display(short d2);
-void display(float d3);
-void display(long d4);
-void display(double d5);
+void display(int intbig);
+void display(short shortbig);
+void display(float floatbig);
+void display(long longbig);
+void display(double doublebig);
 
 int main()
 {
@@ -149,33 +149,32 @@ double big3(double a5,double b5,double c5)
     t5=s5>c5?s5:c5;
 
     return t5;
-
 }
 
-void display(int d1)
+void display(int intbig)
 {
-    cout<<"Biggest of 3 for intbig ="<<d1;
+    cout<<"Biggest of 3 for intbig ="<<intbig;
 }
 
 
-void display(short d2)
+void display(short shortbig)
 {
-    cout<<"Biggest of 3 for shortbig ="<<d2;
+    cout<<"Biggest of 3 for shortbig ="<<shortbig;
 }
 
-void display(float d3)
+void display(float floatbig)
 {
-    cout<<"Biggest of 3 for floatbig ="<<d3;
+    cout<<"Biggest of 3 for floatbig ="<<floatbig;
 }
 
-void display(long d4)
+void display(long longbig)
 {
-    cout<<"Biggest of 3 for longbig ="<<d4;
+    cout<<"Biggest of 3 for longbig ="<<longbig;
 }
 
-void display(double d5)
+void display(double doublebig)
 {
-    cout<<"Biggest of 3 for doublebig ="<<d5;
+    cout<<"Biggest of 3 for doublebig ="<<doublebig;
 }
 
 
