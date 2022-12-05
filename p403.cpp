@@ -165,7 +165,6 @@ void display(int intbig)
     cout<<"Biggest of 3 for intbig ="<<intbig;
 }
 
-
 void display(short shortbig)
 {
     cout<<"Biggest of 3 for shortbig ="<<shortbig;
