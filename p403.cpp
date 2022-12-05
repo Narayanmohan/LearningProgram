@@ -23,7 +23,7 @@ void read(long *a4,long *b4,long *c4);
 void read(double *a5,double *b5,double *c5);
 
 
-int big3(int a1,int b1,int c2);
+int big3(int a1,int b1,int c1);
 short big3(short a2,short b2,short c2);
 float big3(float a3,float b3,float c3);
 long big3(long a4,long b4,long c4);
@@ -120,7 +120,7 @@ int big3(int a1,int b1,int c1)
 
 short big3(short a2,short b2,short c2)
 {
-    int s2,t2;
+    short s2,t2;
 
     s2=a2>b2?a2:b2;
     t2=s2>c2?s2:c2;
@@ -131,7 +131,7 @@ short big3(short a2,short b2,short c2)
 
 float big3(float a3,float b3,float c3)
 {
-    int s3,t3;
+    float s3,t3;
 
     s3=a3>b3?a3:b3;
     t3=s3>c3?s3:c3;
@@ -142,7 +142,7 @@ float big3(float a3,float b3,float c3)
 
 long big3(long a4,long b4,long c4)
 {
-    int s4,t4;
+    long s4,t4;
 
     s4=a4>b4?a4:b4;
     t4=s4>c4?s4:c4;
@@ -153,7 +153,7 @@ long big3(long a4,long b4,long c4)
 
 double big3(double a5,double b5,double c5)
 {
-    int s5,t5;
+    double s5,t5;
 
     s5=a5>b5?a5:b5;
     t5=s5>c5?s5:c5;
