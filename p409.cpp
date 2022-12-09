@@ -24,6 +24,7 @@ int main()
         cin>>a>>b; //7,70
         c=sum(a,b);//7
         
+
         cout<<"\n"<<"Sum of two Numbers in ordinary way = "<<c;
 
 
