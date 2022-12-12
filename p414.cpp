@@ -12,7 +12,6 @@ typedef struct areaofcircle
 
     float area;
     int r;
-
 }aoc;        
 
 aoc read(aoc *acir);
