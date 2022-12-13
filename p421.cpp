@@ -3,6 +3,11 @@ dt-12-12-2022
 Concept-PRIVATE ACCESS MODIFIERS
 concept-Typedef
 Next Program-Biggest of 3 Numbers using c++
+-------------------------------------------------------------------
+1-public member function in the typedef can access private member variable when both has the same Datatype[big3] keyword.
+
+2-Main function can only access public functions structure/ class.
+
 -------------------------------------------------------------------*/
 #include<iostream>
 using namespace std;
