@@ -18,7 +18,7 @@ class Multipleop
 {
     private:
     
-            int a[10];
+            int a[100];
     
     public:
         
@@ -37,12 +37,17 @@ void Multipleop::read()
 {
     int i;
     
-        for(i=0;a[i]!=-1000;i++)
+        i=0;
+      
+        cin>>a[i];
+        
+        for(;a[i]!=-1000;)
         {
+            i++;
             cin>>a[i];
+            
         
         }
-
 
 }    
 
@@ -179,12 +184,7 @@ int Multipleop::sum()
     i=0;
     Arraysum=0;
     
-        for(i=0;a[i]!=-1000;i++)
-        {
-            
-            cin>>a[i];
-        
-        }        
+              
         
         for(i=0;a[i]!=-1000;i++)
         {
@@ -219,13 +219,13 @@ int main()
                 
                 PS=MP.possmall();
                 cout<<"Position of the Smallest Number in the Array is="<<PS<<'\n';
+               
+               MP.swapbigandsmall();
                 
-                MP.swapbigandsmall();
+               MP.display();
                 
-                MP.display();
-                
-                RESULT=MP.sum();
-                cout<<"Sum of the given Array ="<<RESULT<<'\n';
+               RESULT=MP.sum();
+               cout<<"Sum of the given Array ="<<RESULT<<'\n'; 
                     
 
 }                               
