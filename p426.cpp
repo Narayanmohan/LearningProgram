@@ -38,14 +38,15 @@ void charmulop::read()
         
      for(pb=a;(*pb=getchar())!='$';pb++);
      
-     *pb!='\0';     
+     *pb='\0';     
+
 }
 
 void charmulop::display()
 { 
      char *ps;
               
-     for(ps=a;*ps!='$';ps++)
+     for(ps=a;*ps!='\0';ps++)
      {                           
                                                   
         cout<<*ps;        
@@ -53,7 +54,7 @@ void charmulop::display()
       
 }
 
-void charmulop::countuplosdsc(int *uc,int *lc, int *sd, int *sc)
+void charmulop::countuplosdsc(int *uc,int *lc, int *sc, int *sd)
 {
     char *pt;
            
@@ -92,8 +93,9 @@ void charmulop::countlwc(int *l,int *w,int *character)
 
     char *pc;
     
-    *l=*w=*character=0;
-    
+    *w=*character=0;
+    *l=1;
+        
         for(pc=a;*pc!='\0';pc++)
         {
             if(*pc=='\n')
@@ -105,11 +107,10 @@ void charmulop::countlwc(int *l,int *w,int *character)
             {                                         
                 *w=*w+1;            
             }
-            else
-            {
-                 *character = *character+1;
+           
             
-            }
+                 *character = *character+1;
+                  
         
         }
 
@@ -147,11 +148,12 @@ void charmulop::copyFirstNcha(char *pb,int num)
             {
             
                 *pb=*pq;
+  
                 *pb++;
             
             }    
-                
-                    
+
+*pb='\0';             
 
 }
 
@@ -167,7 +169,7 @@ void charmulop::copynthChaFromMthPos(char *pb,int mpos,int nthcha)
         pg=(pf+nthcha);
             
         
-            for(pf;pf<pg;pf++)
+            for(pf;pf<pg && *pf!='\0';pf++)
             {
             
                 *pb=*pf;
@@ -184,14 +186,17 @@ int charmulop::findLength(char *pb)
 {
 
     int length;
-    length =0;
-    
-    
+
+    length=0;
+   
         for(; *pb!='\0';pb++)
         {
         
             length= length+1;
+            
+            
         } 
+
 
 return length;
 
@@ -293,21 +298,22 @@ void charmulop::deletepattern(char *pb,char *pc)
 
         pv=a;
         
-            for(; *pv!='\0';pv++)
+            for(; *pv!='\0';)
             {
             
-            for(py=pv,pz=pb;*py==*pz &&*pz!='\0';pz++,py++);
+                for(py=pv,pz=pb;*py==*pz && *pz!='\0';pz++,py++);
             
-            
+                
                     if(*pz=='\0')
                     {
-                        *pv=*py;
+                        pv=py;
                     
                     }
                     else
                     {
                         *pc=*pv;
-                        *pc++;
+                         pc++;
+                         pv++;
                     
                     }
             }
@@ -321,8 +327,8 @@ void charmulop::deletepattern(char *pb,char *pc)
 void charmulop::replacepattern(char *pb, char *pc,char *pd)
 {
 
-    char *pl;
     char *pi;
+    char *pl;
     char *pj;
     char *pk;
     
@@ -332,10 +338,10 @@ void charmulop::replacepattern(char *pb, char *pc,char *pd)
             {
                 for(pj=pi,pk=pb;*pj==*pk && *pk!='\0';pk++,pj++);
                 
-                if(*pk!='\0')
+                if(*pk=='\0')
                 {
                     
-                    for(pj=pi,pl=pc; *pl!='\0';pl++,pd++)
+                    for(pi=pj,pl=pc; *pl!='\0';pl++,pd++)
                     {
                     
                         *pd=*pl;
@@ -346,9 +352,9 @@ void charmulop::replacepattern(char *pb, char *pc,char *pd)
                 else
                 {
                 
-                    *pd=*pj;
-                    *pd++;
-                    *pj++;
+                   *pd=*pi;
+                    pd++;
+                    pi++;
                 } 
                     
             
@@ -363,13 +369,92 @@ int main()
 {
 
     int upper,lower,specialcharacter,singledigit;
-        
+
+    int line,word,character;
+    
+    int numfornthcha;
+    
+    char b[1000];
+    
+    char c[1000];
+    
+    char d[1000];
+    
+    char e[1000];
+    
+    char cfirstnthcha;
+     
+    int mthpos,nthcharpos; 
+     
+    int lengthofanarray;
+    
+    int lastncha;
+    
+    int countptrn;
+    
+                           
     charmulop cop;
 
     cop.read();
 
-    cop.display();       
+    cop.display();
+    
+          
 
-    cop.countuplosdsc(&upper,&lower,&specialcharacter,&singledigit);    
+    /*cop.countuplosdsc(&upper,&lower,&specialcharacter,&singledigit);      
+               
+            cout<<"Uppercase count="<<upper<<"Lowercase count="<<lower<<"Spl.character.count="<<specialcharacter<<"Single digit Count="<<singledigit;
+    
+      cop.countlwc(&line,&word,&character);    
+              
+            cout<<'\n'<<"linecount="<<line<<"Wordcount="<<word<<"charactercount="<<character; 
+    
+     cop.copyarray(b);
+        
+            cout<<'\n'<<"Copied into Another Array="<<b<<'\n';
+            
+     cin>>numfornthcha;       
+    
+     cop.copyFirstNcha(b,numfornthcha);
+     
+         cout<<'\n'<<"Copy The First Nth Character="<<b; 
+    
+     
+     cin>>mthpos>>nthcharpos;
+     
+     cop.copynthChaFromMthPos(b,mthpos,nthcharpos);
+     
+         cout<<"\n"<<"Nthcharacter From Mth Position"<<b;
+     
+     cop.copyarray(b);    
+         
+     lengthofanarray=cop.findLength(b);
+     
+         cout<<lengthofanarray;  
+         
+     cin>>lastncha;         
+     cop.copyLastNchar(b,lastncha);
+         cout<<'\n'<<"Last Nth character of an array is="<<b;
+         
+     cop.reversecharacter(b);
+         cout<<'\n'<<"Reverse Character of an array is="<<b;
+         
+   cin>>b;            
+   countptrn=cop.countpattern(b);
+         cout<<'\n'<<"Count of the same pattern is="<<countptrn;
+         
+   cin>>c; //Pattern to be deleted.     
+   cop.deletepattern(c,d);          
+        cout<<'\n'<<"Removed the Entered Pattern is = "<<d;*/
+   
+   cin>>c; //pattern to be deleted.
+   cin>>d; //pattern to be replaced.     
+   cop.replacepattern(c,d,e);
+       cout<<'\n'<<"Pattern replaced="<<e;             
+         
+         
+    
+         
+   
 
 }
