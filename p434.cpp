@@ -29,6 +29,7 @@ void findaoc();
 void display();
 };
 
+
 void aoc::findaoc()
 {
     result=3.14 * r  * r;
