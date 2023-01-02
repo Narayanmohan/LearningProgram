@@ -12,7 +12,6 @@ class aoc
         int r;
         float result;
 
-
     public:
         aoc() // Defining constructor here...
         {
