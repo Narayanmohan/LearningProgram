@@ -8,7 +8,6 @@ Next Program-Biggest of 3 numbers using this keyword with Constructor OverLoadin
 using namespace std;
 class Big3
 {
-
     private:
         
         int num1,num2,num3,result;
