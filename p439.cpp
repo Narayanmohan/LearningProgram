@@ -77,8 +77,9 @@ class Big4:public Big3
         
         }    
         
-        void findbig3()
+        void findbig4()
         {
+            Big3::findbig3(); 
             result=result>n4?result:n4;
         
         }
@@ -95,8 +96,11 @@ class Big4:public Big3
 int main()
 {
     Big4 obj;
+
     obj.read();
-    obj.findbig3();
+
+    obj.findbig4();
+
     obj.display();
 
 } 
