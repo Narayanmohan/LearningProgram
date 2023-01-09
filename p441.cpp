@@ -7,7 +7,6 @@ Next Program-Read and Display a person's Biodata without using inheritance
 using namespace std;
 class person
 {
-
     private:
         char name[100];
         int age;
