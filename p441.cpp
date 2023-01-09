@@ -12,8 +12,7 @@ class person
         char name[100];
         int age;
         char gen[100];
-        char address[100];
-        
+        char address[100];    
 
    public:
        void read();
