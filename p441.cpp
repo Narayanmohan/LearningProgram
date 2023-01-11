@@ -31,11 +31,12 @@ void person::display()
     cout<<name<<age<<gen<<address;
 }
 
-int main()
+// The below block has been commented due to inheritance call on next program P442.cpp
+/*int main()
 {
 
     person pe;
     pe.read();
     pe.display();
 
-}
+}*/
