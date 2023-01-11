@@ -5,7 +5,7 @@ Next Program-Read and Display details of Employee and student
 ----------------------------------------------------------------------*/
 #include<iostream>
 using namespace std;
-using namespace p441.cpp;
+#include "p441.cpp"
 class Employee:public person
 {
     private:
