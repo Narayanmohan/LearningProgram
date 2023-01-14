@@ -11,7 +11,13 @@ class Employee:public person
     private:
         int empid;
         char desig[1000];
-        float salary;
+        
+    protected:
+        
+        float salary; 
+        
+        // Purposly made to protected because in program No# 443.cpp we are going to use the salary
+        // if want to use member variable in outside of the class we have to make this member variable to Protected
 
     public:
         void read()
