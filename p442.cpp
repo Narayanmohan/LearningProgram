@@ -54,6 +54,7 @@ class student:public person
 
 };
 
+/*// The below block has been commented due to inheritance call on next program P443.cpp
 int main()
 {
 
@@ -65,4 +66,4 @@ int main()
     obj2.read();
     obj2.display();
 
-}
+}*/
