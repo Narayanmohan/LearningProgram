@@ -5,8 +5,8 @@ Next program-Read and Display Allowance and Deduction for employee
 ---------------------------------------------------------------------*/
 #include<iostream>
 using namespace std;
-#include "p441.cpp"
-class Allowance:public Employee
+#include "p442.cpp"
+class allowance:public Employee
 {
 
     private:
@@ -16,12 +16,15 @@ class Allowance:public Employee
     public:
         void read()
         {
-           Employee::read();              
+                      
+           cout<<"Employee ID"<<"Employee Designation"<<"salary"<<'\n';
+           Employee::read(); 
+                        
         }
         
         void calculate()
         {
-        
+            cout<<"Enter Salary for Hra"<<'\n'<<"Enter Salary for DA"<<'\n';        
             hra=(0.5 * salary);
             da =(0.2 * salary);
         
@@ -29,6 +32,7 @@ class Allowance:public Employee
         
         void display()
         {
+           
             cout<<"HRA="<<hra<<"DA"<<da;
         
         }       
@@ -66,7 +70,7 @@ class deduction:public Employee
 
 int main()
 {
-
+    
     allowance obj;
     obj.read();
     obj.calculate();
