@@ -16,15 +16,14 @@ class allowance:public Employee
     public:
         void read()
         {
-                      
-           cout<<"Employee ID"<<"Employee Designation"<<"salary"<<'\n';
+                     
            Employee::read(); 
                         
         }
         
         void calculate()
         {
-            cout<<"Enter Salary for Hra"<<'\n'<<"Enter Salary for DA"<<'\n';        
+                   
             hra=(0.5 * salary);
             da =(0.2 * salary);
         
@@ -70,7 +69,8 @@ class deduction:public Employee
 
 int main()
 {
-    
+ 
+     
     allowance obj;
     obj.read();
     obj.calculate();
