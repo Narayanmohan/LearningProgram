@@ -24,6 +24,7 @@ class Employee:public person
         {
         
             person::read();
+            cout<<"PERSON-NAME"<<"AGE"<<"GENDER"<<"ADDRESS";
             cin>>empid>>desig>>salary;
         
         }
@@ -32,7 +33,7 @@ class Employee:public person
             person::display();
             cout<<empid<<desig<<salary;
         
-        }
+        }	
 };
 
 class student:public person
