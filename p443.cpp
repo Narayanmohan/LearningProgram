@@ -123,7 +123,9 @@ class deduction:public Employee
 };
 
 
-int main()
+//The below block of code has been purposely commented out due to the Next Program-P444.cpp Multiple Inheritance Call
+
+/*int main()
 {
  
      
@@ -138,4 +140,4 @@ int main()
     obj2.display();
     
 
-}
+}*/
