@@ -20,19 +20,17 @@ class Employee:public person
         // if want to use member variable in outside of the class we have to make this member variable to Protected
 
     public:
+    
         void read()
         {
-        
             person::read();
-            cout<<"PERSON-NAME"<<"AGE"<<"GENDER"<<"ADDRESS";
             cin>>empid>>desig>>salary;
         
         }
         void display()
         {
             person::display();
-            cout<<empid<<desig<<salary;
-        
+            cout<<empid<<desig<<salary;        
         }	
 };
 
@@ -49,6 +47,8 @@ class student:public person
         void read()
         {
             person::read();
+            cout<<"PERSON-NAME"<<"AGE"<<"GENDER"<<"ADDRESS";
+
             cin>>rollno>>course>>marks;
         
         } 
