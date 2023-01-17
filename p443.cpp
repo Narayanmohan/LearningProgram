@@ -2,6 +2,49 @@
 dt-1-13-2023
 Concept-Inheritance
 Next program-Read and Display Allowance and Deduction for employee
+---------------------------------------------------------------------
+Input and output as follows:
+Emp.Name-Age-Gen-Address
+Enter Empid-Desig-Salary
+MEERA
+97
+FEMALE
+42580DREAMWEAVER
+1007
+SAINT
+147800
+HRA-DA-DETAILS-BELOW
+HRA=73900DA29560
+
+MEERA
+97
+FEMALE
+42580DREAMWEAVER
+1007
+SAINT
+147800
+73900
+29560
+Emp.Name-Age-Gen-Address
+Enter Empid-Desig-Salary
+MEERA
+97
+FEMALE
+42580DREAMWEAVER
+1007
+SAINT
+147800
+For Second Object InstanceEmp.Name-Age-Gen-Address
+Enter Empid-Desig-Salary
+
+MEERA
+97
+FEMALE
+42580DREAMWEAVER
+1007
+SAINT
+147800
+PF17736
 ---------------------------------------------------------------------*/
 #include<iostream>
 using namespace std;
@@ -16,7 +59,10 @@ class allowance:public Employee
     public:
         void read()
         {
-                     
+        
+           cout<<"Emp.Name-Age-Gen-Address"<<'\n'; 
+           cout<<"Enter Empid-Desig-Salary"<<'\n';
+                                       
            Employee::read(); 
                         
         }
@@ -31,9 +77,11 @@ class allowance:public Employee
         
         void display()
         {
-           
-            cout<<"HRA="<<hra<<"DA"<<da;
-        
+            cout<<"HRA-DA-DETAILS-BELOW"<<'\n';   
+            cout<<"HRA="<<hra<<"DA"<<da<<'\n';
+
+            Employee::display();
+            cout<<'\n'<<hra<<'\n'<<da;
         }       
 
 };
@@ -47,7 +95,10 @@ class deduction:public Employee
     public:
         void read()
         {
-            Employee::read();
+           cout<<'\n'<<"Emp.Name-Age-Gen-Address";
+           cout<<'\n'<<"Enter Empid-Desig-Salary"<<'\n';
+
+           Employee::read();
         
         }
         void calculate()
@@ -57,10 +108,15 @@ class deduction:public Employee
         }
         
         void display()
-        {
+        { 
         
+            cout<<"For Second Object Instance"<<"Emp.Name-Age-Gen-Address"<<'\n';
+
+            cout<<"Enter Empid-Desig-Salary"<<'\n';
+                
             Employee::display();
-            cout<<"PF"<<pf;
+
+            cout<<'\n'<<"PF"<<pf<<'\n';
         
         }
 
