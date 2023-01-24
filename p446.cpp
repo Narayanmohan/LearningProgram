@@ -25,7 +25,7 @@ void point::read()
     cin>>x>>y;
 }
 
-void point::opeartor ++()
+void point::operator ++()
 {
 
     x++;
@@ -44,7 +44,7 @@ int main()
 
     point p;
     p.read();
-    p++;
+    ++p;  // here if i put p++ then it throw error
     p.display();
     
 }
