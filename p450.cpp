@@ -35,9 +35,10 @@ Complex Complex::sum(Complex c)
 return temp;
 }
 
+
 void Complex::display(Complex c)
 {
-    cout<<c.x+ "i" <<c.y;
+    cout<<c.x<<"+i"<<c.y;
 
 }
 
