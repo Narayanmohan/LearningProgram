@@ -15,8 +15,7 @@ class point
     public:
         void read();
         void operator ++();
-        void display();
-        
+        void display();    
 
 };
 
@@ -44,7 +43,7 @@ int main()
 
     point p;
     p.read();
-    ++p;  // here if i put p++ then it throw error
+    ++p; 
     p.display();
     
 }
