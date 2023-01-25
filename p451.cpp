@@ -22,6 +22,7 @@ void diffcomplex::read()
     cin>>x>>y;
 }
 
+
 diffcomplex diffcomplex::diff(diffcomplex c)
 {
     
@@ -51,6 +52,7 @@ int main()
 
     diff = c1.diff(c2);
     c1.display(diff);
+
 
 }
 
