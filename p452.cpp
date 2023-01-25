@@ -30,7 +30,7 @@ prodcomplex prodcomplex::prod(prodcomplex c)
     prodcomplex temp;
     
     temp.x=this->x * c.x - this->y *c.y;
-    temp.y=this->x + c.y + this->y *c.x;
+    temp.y=this->x * c.y + this->y *c.x;
     
 return temp;
 
