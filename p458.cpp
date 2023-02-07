@@ -43,4 +43,6 @@ int main(int argc, char *argv[])
         cout<<name<<age<<salary;
        
            bio.close(); 
+
+
 }
