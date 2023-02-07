@@ -2,8 +2,21 @@
 dt-2-5-2023
 Concept-FileHandling
 Next Program-Read Biodata from keyboard and Write to a File until Name[0]!=$ using Command Line Argument
+-----------------------------------------------------------------------------------------------------------
+g++ p459.cpp
+./a.out Fileupdate
+MONU
+47
+147
+SUN
+49
+148
+$
 ----------------------------------------------------------------------------------------------------------*/
-int main()
+#include<fstream>
+#include<iostream>
+using namespace std;
+int main(int argc, char *argv[])
 {
 
     char name[100];
@@ -32,9 +45,9 @@ int main()
                 
                     cin>>age>>salary;
                     
-                        bio<<name<<age<<salary;
+                        bio<<'\n'<<name<<'\n'<<age<<'\n'<<salary<<'\n';                        
                         
-                            cin>>name;
+                        cin>>name;
                }
 
 bio.close();
