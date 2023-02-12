@@ -1,4 +1,4 @@
-/*Program No-P460.cpp
+ /*Program No-P460.cpp
 dt-2-7-2023
 Concept-FileHandling with Command Line Argument
 Next Program- Read biodata from file and display on screen until bio.eof()==0
@@ -28,12 +28,13 @@ ifstream bio(argv[1]);
 
     }
 
-
     bio>>name>>age>>salary;
     
         while(bio.eof()==0)
         {
             cout<<name<<age<<salary;
+            
+            bio>>name>>age>>salary;
         }
    
 bio.close();
