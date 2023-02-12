@@ -11,6 +11,7 @@ int main(int argc, char *argv[])
     char ch;
     
     ofstream fch(argv[1]);
+
         
           if(argc<2)
           {
@@ -27,7 +28,7 @@ int main(int argc, char *argv[])
           }
           
           
-              while((ch=getchar()!='$')
+              while((ch=getchar())!='$')
               {
               
                   fch.put(ch);
@@ -35,4 +36,4 @@ int main(int argc, char *argv[])
           
 
 fch.close();
-
+}
