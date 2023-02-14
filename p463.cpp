@@ -13,12 +13,10 @@ class person
         int age;
         float salary;
 
-
     public:
         void read();       
 
 };
-
 
 void person::read()
 {
@@ -45,9 +43,9 @@ int main(int argc, char *argv[])
             return 0;
         
         }
-       
-    
+       //object created using person class    
         person p;
+        
         p.read();
         
         bio.write((char *)&p,sizeof(p));
