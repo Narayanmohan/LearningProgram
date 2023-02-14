@@ -37,12 +37,14 @@ int main(int argc, char *argv[])
             {
             
                 cout<<"Invalid Argument";
+                return 0;
             }
             
             if(bio.fail())
             {
             
                 cout<<"File Opening Error";
+                return 0;
             }
 
 person p;
@@ -53,7 +55,9 @@ bio.read((char *)&p,sizeof(p));
     {    
      
         p.display();
-    
+        bio.read((char *)&p,sizeof(p));
+                
+           
     }
 
 bio.close();

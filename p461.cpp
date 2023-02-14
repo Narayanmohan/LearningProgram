@@ -5,6 +5,7 @@ Next Program-Read Character from keyboard until $ is given and write to a File
 --------------------------------------------------------------------------------------*/
 #include<fstream>
 #include<iostream>
+using namespace std;
 int main(int argc, char *argv[])
 {
 

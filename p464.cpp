@@ -5,6 +5,7 @@ Next Program-Read biodata from file and display on screen using class
 ------------------------------------------------------------------------------*/
 #include<fstream>
 #include<iostream>
+using namespace std;
 class person
 {
     private:
@@ -21,6 +22,7 @@ void person::display()
 {
     cout<<name<<age<<salary;
 }
+
 
 int main(int argc, char *argv[])
 {

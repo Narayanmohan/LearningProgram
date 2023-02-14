@@ -2,9 +2,12 @@
 dt-2-12-2023
 Concept-FileHandling
 Next Program-Read character from File and Display on screen until eof()
+---------------------------------------------------------------------------------------
+./a.out writetofile
 --------------------------------------------------------------------------------------*/
 #include<fstream>
 #include<iostream>
+using namespace std;
 int main(int argc, char *argv[])
 {
     
@@ -19,18 +22,17 @@ int main(int argc, char *argv[])
             }
             
             if(fch.fail())
-            {
-            
+            {            
                 cout<<"File Opening Error";
                 return 0;                
             }
 
-                while((ch!=eof)
+            fch.get(ch);
+            
+            while(fch.eof()==0)
                 {
-
-                    fch.get(ch);                   
-                
+                    cout<<ch;
+                    fch.get(ch);                                                    
                 }
-
 fch.close();
 }

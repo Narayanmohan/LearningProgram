@@ -5,6 +5,7 @@ Next Program-Read biodata from keyboard and write it to file using class
 ---------------------------------------------------------------------------------*/
 #include<fstream>
 #include<iostream>
+using namespace std;
 class person
 {
     private:
