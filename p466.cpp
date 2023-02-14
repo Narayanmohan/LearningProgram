@@ -55,8 +55,7 @@ bio.read((char *)&p,sizeof(p));
     {    
      
         p.display();
-        bio.read((char *)&p,sizeof(p));
-                
+        bio.read((char *)&p,sizeof(p));                
            
     }
 
