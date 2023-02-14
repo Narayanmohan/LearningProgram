@@ -16,7 +16,6 @@ class person
 
     public:
         int read();
-
 };
 
 int person::read()
