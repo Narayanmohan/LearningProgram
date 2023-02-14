@@ -16,8 +16,7 @@ class person
         float salary;
         
     public:
-        void display();
-        
+        void display();        
 };
 
 void person::display()
