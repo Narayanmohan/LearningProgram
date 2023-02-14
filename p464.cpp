@@ -23,7 +23,6 @@ void person::display()
     cout<<name<<age<<salary;
 }
 
-
 int main(int argc, char *argv[])
 {
 
