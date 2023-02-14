@@ -66,7 +66,9 @@ bio.seekg(ln);
 bio.read((char *)&p,sizeof(p));
 
 p.display();
+
 p.read();
+
 bio.seekg(ln);
 
 bio.write((char *)&p,sizeof(p));
