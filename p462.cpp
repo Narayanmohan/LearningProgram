@@ -10,8 +10,8 @@ Next Program-Read character from File and Display on screen until eof()
 using namespace std;
 int main(int argc, char *argv[])
 {
-    
     char ch;
+    
     
         ifstream fch(argv[1]);
         
