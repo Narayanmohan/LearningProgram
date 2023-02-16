@@ -1,4 +1,4 @@
-/*Program No-P475.c
+/*Program No-P473.c
 dt-2-15-2023
 Concept-Debugging
 Next Program-Debugging-Day01-05
