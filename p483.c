@@ -2,7 +2,7 @@
 Program No-P483.c
 dt-2-15-2023
 Concept-Debugging
-Next program-Debugging-Day03-14
+Next program-Debugging-Day03-15
 ----------------------------------------------------------------------*/
 #include<stdio.h>
 int main()
